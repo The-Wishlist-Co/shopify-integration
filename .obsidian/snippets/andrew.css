@@ -1,0 +1,930 @@
+body {
+
+    user-select: text;
+    font-family: 'Norse';
+    font-size: 12pt;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+pre.CodeMirror-line
+{
+    font-size: 17px !important;
+    line-height: 27px !important;
+}
+
+.jira-issue-container {
+    margin-bottom: 0px !important;
+}
+
+pre.frontmatter.language-yaml
+{
+    border-color: rgb(210, 210, 220);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(250,255,255) !important;
+    margin: 0px;
+    padding: 10px 15px 10px 15px;
+    line-height: normal !important;
+}
+
+.language-yaml.is-loaded
+{
+    font-size: 10pt !important;
+    font-family: var(--font-mono) !important;
+    font-weight: 100 !important;
+    background-color: rgb(250,255,255) !important;
+}
+
+.frontmatter-container
+{
+    display: none;
+}
+
+strong
+{
+    color: var(--text-strong) !important;
+}
+
+em
+{
+}
+
+table
+{
+    border-spacing: 5px !important;
+}
+
+th
+{
+    color: var(--text-gray) !important;
+    font-size: 14pt !important;
+    font-weight: 900 !important;
+    border-width: 1px !important;
+    border-color: rgb(210, 210, 220) !important;
+}
+
+td
+{
+    font-size: 14pt !important;
+}
+
+span.cm-inline-code
+{
+    font-family: var(--font-mono) !important;
+}
+
+span.cm-formatting.cm-formatting-code.cm-inline-code
+{
+    font-family: var(--font-mono);
+}
+
+span.cm-formatting.cm-formatting-code.cm-inline-code::selection
+{
+    color: red !important;
+}
+
+.CodeMirror
+{
+    font-size: 12pt;
+}
+
+td ul
+{
+    margin: 0px;
+}
+
+li
+{
+    font-size: 14pt;
+    margin: 0px !important;
+}
+
+p
+{
+    text-align: justify;
+    font-size: 14pt;
+}
+
+a.tag
+{
+    font-family: var(--font-ui);
+    font-variant-ligatures: none;
+    font-weight: 500;
+    color: var(--text-normal) !important;
+    background-color: rgb(255,255,255) !important;
+    padding: 0px !important;
+    font-size: 14pt !important;
+}
+
+.cm-hashtag-end
+{
+}
+
+a.tag:hover
+{
+    background-color: #F0F0F0;
+    color: #D65D0E !important;
+}
+
+a.tag::before
+{
+    content: "";
+}
+
+a.internal-link.is-unresolved
+{
+    text-decoration: none !important;
+    font-weight: 100 !important;
+    color: var(--text-faint) !important;
+}
+
+a.internal-link
+{
+    text-decoration: none !important;
+}
+
+a.internal-link:hover
+{
+    text-decoration: underline !important;
+}
+
+a.external-link
+{
+    text-decoration: none !important;
+}
+
+a.external-link:hover
+{
+    text-decoration: underline !important;
+}
+
+span.cm-header.cm-header-1.cm-hmd-internal-link
+{
+    text-align: left !important;
+    text-decoration: none !important;
+}
+
+span.cm-hmd-frontmatter
+{
+    font-family: var(--font-mono);
+    text-align: left;
+    font-size: 16px;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    font-variant-ligatures: none;
+}
+
+
+span.cm-hmd-codeblock
+{
+    font-family: var(--font-mono);
+    text-align: left;
+    font-size: 16px;
+    font-weight: light;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    font-variant-ligatures: none;
+}
+
+.markdown-preview-view code,
+    .cm-s-obsidian span.cm-inline-code,
+    .cm-s-obsidian pre.HyperMD-codeblock {
+    font-family: var(--font-monospace);
+    font-size: 17px !important;
+    color: var(--text-code);
+}
+
+.markdown-preview-view pre>code {
+    padding: 24px 6px 24px 10px;
+    color: var(--text-normal);
+    display: block;
+    overflow: auto;
+    white-space: pre;
+}
+
+.CodeMirror-linebackground
+{
+    background-color: #F4F4F4;
+}
+
+del a
+{
+    color: #C5DED0 !important;
+}
+
+a
+{
+}
+
+p
+{
+}
+
+.nav-file-tag
+{
+    background-color: #f8cd82;
+    color: black;
+}
+
+.is-active .nav-file-title-content
+{
+    font-weight: bold;
+}
+
+.theme-light code[class*="language-"],
+.theme-light pre[class*="language-"] {
+  color: black;
+  background: #f0f0fa;
+  text-shadow: 0 1px white;
+  font-family: var(--font-mono);
+  font-weight: light;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+.theme-light .token.punctuation
+{
+    color: black;
+}
+
+.theme-light .token.number
+{
+    color: black;
+}
+
+.cm-s-obsidian span.cm-number
+{
+    color: black;
+}
+
+.cm-s-obsidian span.cm-meta
+{
+    color: black;
+}
+
+.markdown-source-view
+{
+    font-family: var(--font-mono);
+    font-weight: 300;
+}
+
+.markdown-preview-view pre
+{
+/*    padding: 6px 30px;*/
+}
+
+.markdown-preview-view pre code
+{
+    line-height: 1.5 !important;
+}
+
+.markdown-preview-sizer
+{
+    line-height: 1.5 !important;
+    margin: 0px !important;
+}
+
+code
+{
+    padding: 0px !important;
+    font-size: 16px !important;
+}
+
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight)
+{
+    background-color: transparent;
+}
+
+
+.CodeMirror pre.HyperMD-table-row {
+    font-family: var(--font-mono);
+    font-size: 10pt;
+    line-height: 18pt;
+    background-color: transparent;
+}
+
+.cm-s-obsidian span.cm-math
+{
+    font-family: var(--font-mono);
+}
+
+.workspace-split.mod-root .workspace-split.mod-vertical .workspace-leaf-content,
+.workspace-split.mod-vertical > .workspace-split,
+.workspace-split.mod-vertical > .workspace-leaf,
+.workspace-tabs
+{
+    padding-right: 0px;
+}
+
+.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+    background-color: #D8D800;
+}
+
+:root {
+    --font-ui:"GT Walsheim Pro","Avenir",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    --font-mono:"Anonymice Nerd Font Mono","Menlo","Victor Mono",monospace;
+    --font-quote:"Palatino",serif;
+
+    --dark0-hard:     #1d2021;
+    --dark0:          #282828;
+    --dark0-soft:     #32302f;
+    --dark1:          #3c3836;
+    --dark2:          #504945;
+    --dark3:          #665c54;
+    --dark4:          #7c6f64;
+
+    --gray:           #928374;
+
+    --light0-hard:    #f9f5d7;
+    --light0:         #fbf1c7;
+    --light0-soft:    #f2e5bc;
+    --light1:         #ebdbb2;
+    --light2:         #d5c4a1;
+    --light3:         #bdae93;
+    --light4:         #a89984;
+
+    --bright-red:     #fb4934;
+    --bright-green:   #b8bb26;
+    --bright-yellow:  #fabd2f;
+    --bright-blue:    #83a598;
+    --bright-purple:  #d3869b;
+    --bright-aqua:    #8ec07c;
+    --bright-orange:  #fe8019;
+
+    --neutral-red:    #cc241d;
+    --neutral-green:  #98971a;
+    --neutral-yellow: #d79921;
+    --neutral-blue:   #458588;
+    --neutral-purple: #b16286;
+    --neutral-aqua:   #689d6a;
+    --neutral-orange: #d65d0e;
+
+    --faded-red:      #9d0006;
+    --faded-green:    #79740e;
+    --faded-yellow:   #b57614;
+    --faded-blue:     #076678;
+    --faded-purple:   #8f3f71;
+    --faded-aqua:     #427b58;
+    --faded-orange:   #af3a03;
+ }
+
+ .markdown-preview-section {
+    max-width: 100% !important;
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-section, .markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 100% !important;
+}
+
+.nav-folder-children .nav-file-title-content:first-child::before {
+  content: "\e924  ";
+  font-family: "IcoMoon-Free";
+}
+.nav-folder-children .nav-folder-title-content::before {
+  content: "\e930  ";
+  font-family: "IcoMoon-Free";
+}
+
+pre.HyperMD-codeblock.CodeMirror-line
+{
+    width: 100%;
+}
+
+.MJX-TEX {
+  font-size: 100%;
+}
+
+b, strong, .cm-s-obsidian .cm-strong{
+  /*color: var(--bright-red) !important;*/
+}
+u {
+  color: var(--bright-purple) !important;
+}
+
+.cm-s-obsidian,
+.markdown-preview-view {
+  text-align: left;
+  hyphens: none;
+}
+
+ .markdown-preview-view {
+    font-family: var(--font-ui);
+    font-weight: 100;
+ }
+
+ img.emoji 
+ {
+     margin: 0px !important;
+     overflow-wrap: normal;
+     text-align: left !important;
+     display: inline !important;
+ }
+
+ img
+ {
+     margin-left: initial !important;
+ }
+
+ .markdown-preview-view h1, h2, h3{
+    font-family: var(--font-ui);
+ }
+
+ h1 {
+     text-align: left;
+ }
+
+ .markdown-preview-view code {
+    background-color: transparent;
+    font-family: var(--font-mono);
+ }
+
+ .markdown-preview-view mark {
+    background-color: #FFFACD;
+ }
+
+.markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 100% !important;
+    line-height: 26px;
+}
+
+ body, input, button  {
+  font-family:var(--font-ui);
+}
+
+.container {
+  --color-background-heading: transparent;
+
+  --color-background-day: transparent;
+  --color-background-day-empty: var(--background-secondary-alt);
+  --color-background-day-active: var(--interactive-accent);
+  --color-background-day-hover: var(--interactive-hover);
+
+  --color-dot: var(--text-muted);
+
+  --color-text-heading: var(--text-normal);
+  --color-text-day: var(--text-normal);
+  --color-text-today: var(--text-accent);
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  /* padding-top: 1.25rem; */
+  /* margin: 45px 0 20px 0; */
+  position: relative;
+}
+.markdown-preview-view h2:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: -0.2rem;
+  background-image: linear-gradient(to right, var(--light1), var(--background-primary)) ;
+  opacity: 1;
+}
+
+.markdown-preview-view h3:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 80%;
+  left: 0;
+  bottom: -0.2rem;
+  /*background-image: linear-gradient(to right, var(--light1), var(--background-primary)) ;*/
+  opacity: 1;
+}
+
+h1 a.internal-link
+{
+    color: var(--text-title-h1) !important;
+    text-decoration: none;
+}
+
+.markdown-preview-view h1 {
+    font-size: 32pt;
+    color: var(--text-title-h1);
+    text-align: left;
+}
+
+.markdown-preview-view h2 {
+    font-size: 22pt;
+    font-weight: 500;
+    color: var(--text-title-h2);
+/*    text-transform: uppercase;*/
+    text-align: left;
+    margin-top: 30pt;
+    margin-bottom: 20pt;
+}
+
+.markdown-preview-view h3 {
+    font-family: var(--font-ui);
+    font-size: 18pt;
+    font-weight: 100;
+    color: var(--text-title-h3);
+    text-transform: capitalize;
+    text-align: left;
+    margin-top: 20pt;
+}
+
+.markdown-preview-view h4 {
+    font-family: var(--font-ui);
+    color: var(--text-title-h4);
+    text-align: left;
+    font-size: 16pt;
+    font-weight: 100;
+    margin-top: 20pt;
+}
+
+.markdown-preview-view h5 {
+    font-family: var(--font-ui);
+    text-decoration: underline;
+    color: var(--text-title-h5);
+    text-align: left;
+    font-size: 14pt;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 20pt;
+}
+
+.theme-light {
+    --text-normal:                var(--dark0);
+    --text-faint:                 var(--dark3);
+    --text-title-h1:              var(--faded-red);
+    --text-title-h2:              var(--faded-orange);
+    --text-title-h3:              var(--faded-yellow);
+    --text-title-h4:              var(--faded-green);
+    --text-title-h5:              var(--faded-green);
+    --text-link:                  var(--neutral-blue);
+    --text-tag:                   rgba(22, 45, 76, 0.8);
+    --text-a:                     var(--neutral-orange);
+    --text-a-hover:               var(--neutral-blue);
+    --text-mark:                  var(--neutral-yellow);
+    --text-code:                  var(--faded-blue);
+    --pre-code:                   var(--light1);
+    --text-highlight-bg:          var(--bright-aqua);
+    --interactive-accent:         var(--neutral-orange);
+    --interactive-before:         var(--light4);
+    --background-modifier-border: var(--light2);
+    --text-accent:                var(--neutral-orange);
+    --interactive-accent-rgb:     var(--neutral-orange);
+    --inline-code:                var(--neutral-blue);
+    --vim-cursor:                 var(--neutral-orange);
+    --text-selection:             rgba(200, 200, 200, 0.5); /* light3 */
+    --code-block-background:      rgba(255, 0, 0, 0.5); 
+}
+
+hr.page-break {border:none; margin:0px;}
+
+@media print {
+
+  div.page-break {
+    page-break-before: always;
+  }
+
+  hr.page-break {
+    page-break-before: always;
+  }
+
+  .no-print {
+     visibility: hidden;
+  }
+
+  span.issue-summary
+  {
+      font-size: 8pt !important;
+      word-wrap: None !important;
+      white-space: pre;
+  }
+
+  .ji-tag.is-link.is-light
+  {
+      font-size: 8pt !important;
+  }
+
+  .ji-tag.is-warning, .ji-tag.is-info
+  {
+     visibility: hidden;
+  }
+
+  p, li
+  {
+      font-size: 10pt !important;
+      line-height: 13pt !important;
+  }
+
+  .markdown-preview-view code, code {
+      font-size: 9pt !important;
+      line-height: 13pt !important;
+  }
+
+  h1.acceptance-criteria {
+    page-break-before: always !important;
+  }
+
+  h2, .acceptance-criteria {
+    margin-top: 20pt !important;
+  }
+
+  th, td {
+      font-size: 10pt !important;
+  }
+
+  h1 {
+    font-size: 14pt !important;
+  }
+  
+  h2 {
+    font-size: 12pt !important;
+    margin-top: 10pt;
+    margin-bottom: 8pt !important;
+  }
+
+  h3 {
+    font-size: 11pt !important;
+    margin-top: 10pt !important;
+  }
+
+  h4 {
+    font-size: 10pt !important;
+    margin-top: 8pt !important;
+  }
+
+  h5 {
+    font-size: 10pt !important;
+    margin-top: 8pt !important;
+    margin-bottom: 0pt !important;
+  }
+
+  .language-yaml.is-loaded
+  {
+    font-family: var(--font-mono) !important;
+    font-size: 8pt !important;
+    font-weight: 100 !important;
+  }
+
+  .task-list-item-checkbox {
+      height: 9pt !important;
+      width: 9pt !important
+  }
+
+  h2,
+  h3,
+  h4,
+  h5 {
+    page-break-after: avoid;
+  }
+
+  p {
+    page-break-before: avoid;
+  }
+
+  pre,
+  blockquote {
+    page-break-inside: avoid;
+  }
+
+  /* use double <hr> ('---') to indicate a page break */
+  hr + hr {
+    page-break-before: always;
+    visibility: hidden;
+  }
+
+  :not(hr) + hr {
+    visibility: hidden;
+  }
+
+  :not(hr) + hr + :not(hr):not(h2) {
+    border-top: 1px solid black;
+    padding-top: 2em;
+  }
+}
+
+.markdown-preview-view hr::after {
+  content: '';
+  display: none;
+}
+
+/* */
+
+/* Dark theme */
+.theme-dark {
+  --text-gray: rgba(255, 255, 255, 0.6);
+  --text-brown: rgb(147, 114, 100);
+  --text-orange: rgb(255, 163, 68);
+  --text-yellow: rgb(255, 220, 73);
+  --text-green: rgb(77, 171, 154);
+  --text-blue: rgb(82, 156, 202);
+  --text-purple: rgb(154, 109, 215);
+  --text-pink: rgb(226, 85, 161);
+  --text-red: rgb(255, 115, 105);
+  --text-em: rgb(255, 255, 255);
+  --text-strong: rgb(255, 255, 255);
+
+  --background-gray: rgb(69, 75, 78);
+  --background-brown: rgb(67, 64, 64);
+  --background-orange: rgb(89, 74, 58);
+  --background-yellow: rgb(89, 86, 59);
+  --background-green: rgb(53, 76, 75);
+  --background-blue: rgb(54, 73, 84);
+  --background-purple: rgb(68, 63, 87);
+  --background-pink: rgb(83, 59, 76);
+  --background-red: rgb(89, 65, 65);
+}
+
+/* Light theme */
+.theme-light {
+  --text-gray: rgba(55, 53, 47, 0.6);
+  --text-brown: rgb(100, 71, 58);
+  --text-orange: rgb(217, 115, 13);
+  --text-yellow: rgb(223, 171, 1);
+  --text-green: rgb(15, 123, 108);
+  --text-blue: rgb(11, 110, 153);
+  --text-purple: rgb(105, 64, 165);
+  --text-pink: rgb(173, 26, 114);
+  --text-red: rgb(224, 62, 62);
+  --text-em: rgb(11,110,153);
+  --text-strong: rgba(35, 33, 27, 0.8);
+
+  --background-gray: rgb(235, 236, 237);
+  --background-brown: rgb(233, 229, 227);
+  --background-orange: rgb(250, 235, 221);
+  --background-yellow: rgb(251, 243, 219);
+  --background-green: rgb(221, 237, 234);
+  --background-blue: rgb(221, 235, 241);
+  --background-purple: rgb(234, 228, 242);
+  --background-pink: rgb(244, 223, 235);
+  --background-red: rgb(251, 228, 228);
+}
+
+/* 6. Notion Colour Blocks */
+/* Original idea from: https://gist.github.com/mklepaczewski/54e451f09994b9d450de81c8baaf8aa4 */
+/* but also with simpler classes so you can use `<span class='colour'>` as well */
+
+.app-container .markdown-preview-view pre[class*="language-note-"] {
+  padding: 3px 2px;
+  border-radius: 0;
+}
+
+.app-container .markdown-preview-view pre[class*="language-note-"] code[class*="language-note-"] {
+  color: var(--text-normal);
+  white-space: pre-wrap;
+  padding: 0;
+  background:none;
+}
+
+.app-container .markdown-preview-view pre.language-note-notice,
+.app-container .markdown-preview-view pre.language-note-gray-background,
+.app-container .markdown-preview-view pre.language-note-gray-bg,
+.gray-background,
+.gray-bg {
+  background-color: var(--background-gray);
+}
+
+.app-container .markdown-preview-view pre.language-note-brown-background,
+.app-container .markdown-preview-view pre.language-note-brown-bg,
+.brown-background,
+.brown-bg {
+  background-color: var(--background-brown);
+}
+
+.app-container .markdown-preview-view pre.language-note-orange-background,
+.app-container .markdown-preview-view pre.language-note-orange-bg,
+.orange-background,
+.orange-bg {
+  background-color: var(--background-orange);
+}
+
+.app-container .markdown-preview-view pre.language-note-warn,
+.app-container .markdown-preview-view pre.language-note-yellow-background,
+.app-container .markdown-preview-view pre.language-note-yellow-bg,
+.yellow-background,
+.yellow-bg {
+  background-color: var(--background-yellow)
+}
+
+.app-container .markdown-preview-view pre.language-note-success,
+.app-container .markdown-preview-view pre.language-note-green-background,
+.app-container .markdown-preview-view pre.language-note-green-bg,
+.green-background,
+.green-bg {
+  background-color: var(--background-green);
+}
+
+.app-container .markdown-preview-view pre.language-note-info,
+.app-container .markdown-preview-view pre.language-note-blue-background,
+.app-container .markdown-preview-view pre.language-note-blue-bg,
+.blue-background,
+.blue-bg {
+  background-color: var(--background-blue);
+}
+
+.app-container .markdown-preview-view pre.language-note-purple-background,
+.app-container .markdown-preview-view pre.language-note-purple-bg,
+.purple-background,
+.purple-bg {
+  background-color: var(--background-purple);
+}
+
+.app-container .markdown-preview-view pre.language-note-pink-background,
+.app-container .markdown-preview-view pre.language-note-pink-bg,
+.pink-background,
+.pink-bg {
+  background-color: var(--background-pink);
+}
+
+.app-container .markdown-preview-view pre.language-note-danger,
+.app-container .markdown-preview-view pre.language-note-red-background,
+.app-container .markdown-preview-view pre.language-note-red-bg,
+.red-background,
+.red-bg {
+  background-color: var(--background-red);
+}
+
+.app-container .markdown-preview-view pre.language-note-gray,
+.app-container .markdown-preview-view pre.language-note-brown,
+.app-container .markdown-preview-view pre.language-note-orange,
+.app-container .markdown-preview-view pre.language-note-yellow,
+.app-container .markdown-preview-view pre.language-note-green,
+.app-container .markdown-preview-view pre.language-note-blue,
+.app-container .markdown-preview-view pre.language-note-purple,
+.app-container .markdown-preview-view pre.language-note-pink,
+.app-container .markdown-preview-view pre.language-note-red {
+  background-color: transparent;
+}
+
+.app-container .markdown-preview-view pre.language-note-gray code.language-note-gray,
+.gray {
+  color: var(--text-gray);
+}
+
+.app-container .markdown-preview-view pre.language-note-brown code.language-note-brown,
+.brown {
+  color: var(--text-brown);
+}
+
+.app-container .markdown-preview-view pre.language-note-orange code.language-note-orange,
+.orange {
+  color: var(--text-orange);
+}
+
+.app-container .markdown-preview-view pre.language-note-yellow code.language-note-yellow,
+.yellow {
+  color: var(--text-yellow)
+}
+
+.app-container .markdown-preview-view pre.language-note-green code.language-note-green,
+.green {
+  color: var(--text-green);
+}
+
+.app-container .markdown-preview-view pre.language-note-blue code.language-note-blue,
+.blue {
+  color: var(--text-blue);
+}
+
+.app-container .markdown-preview-view pre.language-note-purple code.language-note-purple,
+.purple {
+  color: var(--text-purple);
+}
+
+.app-container .markdown-preview-view pre.language-note-pink code.language-note-pink,
+.pink {
+  color: var(--text-pink);
+}
+
+.app-container .markdown-preview-view pre.language-note-red code.language-note-red,
+.red {
+  color: var(--text-red);
+}
+
+blockquote p{
+    font-family: var(--font-quote);
+    font-weight: light;
+    font-style: italic;
+    font-size: 12pt;
+    display: block;
+    color: var(--text-normal);
+}
+
+blockquote
+{
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+}

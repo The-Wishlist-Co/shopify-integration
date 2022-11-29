@@ -1,0 +1,9 @@
+{
+  "theme": "moonstone",
+  "cssTheme": "Big Sur Aesthetic",
+  "enabledCssSnippets": [
+    "andrew"
+  ],
+  "accentColor": "",
+  "baseFontSize": 18
+}

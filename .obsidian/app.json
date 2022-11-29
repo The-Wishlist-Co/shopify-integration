@@ -1,0 +1,30 @@
+{
+  "livePreview": false,
+  "spellcheck": true,
+  "legacyEditor": true,
+  "showInlineTitle": false,
+  "spellcheckDictionary": [
+    "wishlist",
+    "colour",
+    "Shopify",
+    "wireframe",
+    "customised",
+    "Javascript",
+    "behaviour",
+    "colours",
+    "wishlists",
+    "customise",
+    "customisation"
+  ],
+  "foldIndent": false,
+  "foldHeading": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Image bucket",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "99889c4adb986d3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bac12e80ea3f1b1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "428f89dee873d5ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reporting.md",
+                "mode": "preview"
+              }
+            }
+          },
+          {
+            "id": "7e2490c25246876c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions and Issues.md",
+                "mode": "preview"
+              }
+            }
+          },
+          {
+            "id": "21bf9bbe39afcfcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "cb5fcbe68c5ca004",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Links and references.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8028b3511874e57",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b77d4fceefb4f42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70939f4899070910",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d0dc3205ecd643c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b27eb8da1578abb5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5086555480957
+  },
+  "right": {
+    "id": "d33f1ae2265741c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "35d1cc00e8eef54e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97b41054e3238f2d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "192ed2ef58e363a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8ebf39a8299f1504",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e69309b9506a867e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md"
+              }
+            }
+          },
+          {
+            "id": "4e62a2e384d1aa6c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "21bf9bbe39afcfcd",
+  "lastOpenFiles": [
+    "Questions and Issues.md",
+    "App Configuration — Notifications.md",
+    "Reporting.md",
+    "App Configuration — Wishlist Page.md",
+    "App Configuration — Add Items to Wishlist.md",
+    "App Configuration — Launch Point.md",
+    "App Configurations.md",
+    "Home.md",
+    "Links and references.md",
+    "Image bucket/Pasted image 20221015161647.png"
+  ]
+}
