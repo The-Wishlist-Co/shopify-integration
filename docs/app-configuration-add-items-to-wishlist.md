@@ -1,3 +1,4 @@
+{% raw %} 
 The **Add Items to Wishlist** configuration is used to describe the way a customer is able to add items to their wishlist.
 
 There are four different configurations related to this:
@@ -277,7 +278,7 @@ You can completely customise the HTML template used to display the confirmation 
     <div class="body__product-wapper-detail">
       <div class="body__product-detail" toast_product_detail="">
         <div class="body__product-name">
-          \{\{product_name}}
+          {{product_name}}
         </div>
         <div class="body__product-price">
           \{\{product_price\}\}
@@ -308,3 +309,4 @@ As with many other configuration areas, you can choose the font used for the pop
 - `Georgia`;
 - `Verdana`; or
 - `Garamond`.
+{% endraw %}
