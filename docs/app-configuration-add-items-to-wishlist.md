@@ -164,7 +164,10 @@ The default HTML template is shown below:
     <div class="form-control">
       <div class="variant-item-list" value_list>
         <label class="variant-item" value_item>
-          <input type="radio" class="variant-item-input" name="«option_name»" id="{{option_value}}">
+          <input type="radio"
+                 class="variant-item-input"
+                 name="{{option_name}}"
+                 id="{{option_value}}">
           <span>{{option_value}}</span>
         </label>
       </div>
