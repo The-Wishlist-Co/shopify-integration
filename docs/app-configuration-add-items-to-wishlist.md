@@ -2,14 +2,14 @@ The **Add Items to Wishlist** configuration is used to describe the way a custom
 
 There are four different configurations related to this:
 
-- The details displayed on a [[#Product Detail Page|Product Detail Page]] — that is, when the customer is viewing a specific product;
-- The details displayed on a [[#Collection page|collections page]] — when the customer is looking at the range of bags available, for example;
-- The way in which the [[#Add to Wishlist popup|“Add to Wishlist”]] popup is configured when required; and
-- The configuration of the transient [[#Confirmation popup|confirmation popup]] displayed when a customer has added an article to their wishlist.
+- The details displayed on a [product detail page](#product-detail-page) — that is, when the customer is viewing a specific product;
+- The details displayed on a [collections page](#collection-page — when the customer is looking at the range of bags available, for example;
+- The way in which the [“Add to Wishlist”](#add-to-wishlist-popup) popup is configured when required; and
+- The configuration of the transient [confirmation popup](#confirmation-popup) displayed when a customer has added an article to their wishlist.
 
 These four sections of the configuration are available by opening the appropriate section of the page.
 
-![[Pasted image 20221015155442.png|1280]]
+![](assets/Pasted image 20221015155442.png)
 
 ## Product Detail Page
 
@@ -28,7 +28,7 @@ There are five different button styles supported:
 
 You can select one of these five:
 
-![[Pasted image 20221015160232.png|1280]]
+![](assets/Pasted image 20221015160232.png)
 
 ### Button Icon and sizing
 
@@ -43,7 +43,7 @@ Both have the same options available.
 
 These options are illustrated below:
 
-![[Pasted image 20221015160646.png|1280]]
+![](assets/Pasted image 20221015160646.png)
 
 ### Button position
 
@@ -58,19 +58,17 @@ The five options are:
 
 These can be selected (and can be different for) both desktop class devices and mobile devices.
 
-![[Pasted image 20221015161046.png|1280]]
+![](assets/Pasted image 20221015161046.png)
 
-```ad-note
 **[AL, 15Oct22]** — we need to add some content here describing how the custom JS works
-```
 
 In this example, the Add to Wishlist button has been configured to be displayed “After Add to Cart” button:
 
-![[Pasted image 20221015161647.png|1280]]
+![](assets/Pasted image 20221015161647.png)
 
 Changing it to “Below Add to Cart” has a different outcome:
 
-![[Pasted image 20221015161758.png|1280]]
+![](assets/Pasted image 20221015161758.png)
 
 ### Custom button styling with CSS
 
@@ -82,7 +80,7 @@ You can apply custom styling to the Add to Wishlist by providing a background co
 
 These are illustrated below:
 
-![[Pasted image 20221015162121.png|1280]]
+![](assets/Pasted image 20221015162121.png)
 
 ### Button text and font
 
@@ -90,7 +88,7 @@ Finally, you can configure the text that's displayed on the Add to Wishlist butt
 
 The screenshot below illustrates these options:
 
-![[Pasted image 20221015162726.png|1280]]
+![](assets/Pasted image 20221015162726.png)
 
 ## Collection page
 
@@ -98,7 +96,7 @@ You can optionally inject an “Add to Wishlist” icon on your shop's collectio
 
 The following example illustrates:
 
-![[Pasted image 20221015194218.png|1280]]
+![](assets/Pasted image 20221015194218.png)
 
 ### Rendering the button
 
@@ -113,7 +111,7 @@ A small amount of additional HTML needs to be added to the product card HTML to 
 
 The following screenshot illustrates where the required HTML can be found:
 
-![[Pasted image 20221015195227.png|1280]]
+![](assets/Pasted image 20221015195227.png)
 
 Once these changes are made, the wishlist button will be shown on each item on your shop's collections page.
 
@@ -129,7 +127,7 @@ Each of these configuration options is available for two separate wishlist butto
 
 The following screenshot illustrates:
 
-![[Pasted image 20221015200836.png|1280]]
+![](assets/Pasted image 20221015200836.png)
 
 ### Configuring the button
 
@@ -137,19 +135,19 @@ Finally, having added the button to the product card within your collections, an
 
 You can select the colour used to display the icon within the button, and you can specify some custom CSS to modify the button's behaviour. The CSS can be provided for both desktop and mobile customers.
 
-![[Pasted image 20221015201130.png|1280]]
+![](assets/Pasted image 20221015201130.png)
 
 ## Add to Wishlist popup
 
 When a customer adds something to their wishlist, a popup window is presented to them so that they can select the article variant (colour, style, etc) and the wishlist they want to add the item to. The following example illustrates:
 
-![[Pasted image 20221016082900.png|1280]]
+![](assets/Pasted image 20221016082900.png)
 
 ### Configure variant popup
 
 The top area of the popup, showing the variant selection, can be configured using a title, HTML fragment, and colour selection.
 
-![[Pasted image 20221016083906.png|1280]]
+![](assets/Pasted image 20221016083906.png)
 
 - The variant popup title can be configured. In the example above, it's set to “Select a variant”.
 - The HTML used to present the variants can be provided. This shows the list of variants — in this example, colours. This is described in more detail below.
@@ -160,17 +158,17 @@ The default HTML template is shown below:
 ```html
 <h4 class="wishlist-title" variant_title></h4>
 <div class="variant-list" option_list>
-	<div class="form-group" option_item>
-		<label>{{option_name}}</label>
-		<div class="form-control">
-		<div class="variant-item-list" value_list>
-			<label class="variant-item" value_item>
-			<input type="radio" class="variant-item-input" name="{{option_name}}" id="{{option_value}}">
-			<span>{{option_value}}</span>
-			</label>
-		</div>
-		</div>
-	</div>
+  <div class="form-group" option_item>
+    <label>{{option_name}}</label>
+    <div class="form-control">
+      <div class="variant-item-list" value_list>
+        <label class="variant-item" value_item>
+          <input type="radio" class="variant-item-input" name="{{option_name}}" id="{{option_value}}">
+          <span>{{option_value}}</span>
+        </label>
+      </div>
+    </div>
+  </div>
 </div>
 ```
 
@@ -183,39 +181,39 @@ There are several important characteristics of the HTML template that is used.
 
 The next area of the popup, showing the wishlist to add the item to, can be configured using a title, HTML fragment, and colour selection.
 
-![[Pasted image 20221016091140.png|1280]]
+![](assets/Pasted image 20221016091140.png)
 
 - The variant popup title can be configured. In the example above, it's set to “Select a Wishlist”.
 - The HTML used to present the wishlists can be provided. This shows the list of wishlists — in this example, two are shown. This is described in more detail below.
 - The colours used for the wishlist popup title can be configured — both the text colour and background colour. This can be set for both the desktop and mobile class devices.
 
 Note that the use of multiple wishlists is optional. If this is disabled, or the customer only has a single wishlist, this area of the wishlist popup will not be shown.
-- Refer to [[App Configuration — Wishlist Page#Multiple Wishlist]] for details on multiple wishlists.
+- Refer to [multiple wishlist](app-configuration-wishlist-page.md#multiple-wishlist for details on multiple wishlists.
 
 The default HTML template is shown below:
 
 ```html
 <h4 class="wishlist-title" wishlist_title></h4>
 <div class="wishlist-list" wishlist_list>
-	<label wishlist_item>
-		<input type="checkbox"
-			   class="wishlist-list-input"
-			   id="wishlist-item-{{wishlistId}}"
-			   name="wishlist-item-{{wishlistId}}"
-			   data-wishlist-default="{{is_default_wishlist}}">
-		<span class="type-check"></span>
-		<span class="title-wishlist" title="{{wishlist_name}}">{{wishlist_name}}</span>
-		<div class="remove-variant" remove_variant>Remove</div>
-	</label>
+  <label wishlist_item>
+    <input type="checkbox"
+           class="wishlist-list-input"
+           id="wishlist-item-<wishlistId>"
+           name="wishlist-item-<wishlistId>"
+           data-wishlist-default="{{is_default_wishlist}}">
+    <span class="type-check"></span>
+    <span class="title-wishlist" title="{{wishlist_name}}">{{wishlist_name}}</span>
+    <div class="remove-variant" remove_variant>Remove</div>
+  </label>
 </div>
 ```
 
 There are several important characteristics of the HTML template that is used.
 
 1. The heading must use the `wishlist-title` class and reference `wishlist_title` to correctly show the title text in the configured style.
-2. The list of options presented must use the `wishlist-list` class, and include `wishlist-item-{{wishlistId}}` as the `id` and `name` of the `<input>` element.
-3. The description of each wishlist must be a span of type `title-wishlist`, and a title and span content of `{{wishlist_name}}`.
-4. The default wishlist can be flagged with `{{is_default_wishlist}}`.
+2. The list of options presented must use the `wishlist-list` class, and include `wishlist-item-<wishlistId>` as the `id` and `name` of the `<input>` element.
+3. The description of each wishlist must be a span of type `title-wishlist`, and a title and span content of `wishlist_name`.
+4. The default wishlist can be flagged with `is_default_wishlist`.
 
 ### Font
 
@@ -253,7 +251,7 @@ You can choose the icon size — the default is 20⨉20.
 
 The next option is to choose the background colour for the confirmation popup. The default is `#000000` (black), but this can be changed as required. The following example shows the selection of a green colour:
 
-![[Pasted image 20221026080829.png|1280]]
+![](assets/Pasted image 20221026080829.png)
 
 You can also change the text that is displayed in the foreground of the popup. The default is `This item has been added to your Wishlist`, but this can be customised as required.
 
@@ -300,7 +298,7 @@ You should use this as the basis for your confirmation popup, and customise it a
 
 You can also supply some custom CSS that applies to both desktop and mobile devices. By default, this is blank, but you can use it as required.
 
-![[Pasted image 20221026082936.png|1280]]
+![](assets/Pasted image 20221026082936.png)
 
 ### Font
 

@@ -17,8 +17,8 @@ At this point, you should see an administration page for the wishlist. It can be
 
 The menu items in your wishlist configuration include:
 
-- [Dashboard](dashboard.html) — provides an overall summary of your customer's wishlist use.
-- [Subscription](subscription.html) — use this option to manage your subscription to the wishlist.
+- [Dashboard] — provides an overall summary of your customer's wishlist use. (tbd)
+- [Subscription] — use this option to manage your subscription to the wishlist. (tbd)
 - [App Configurations](app-configurations.html) — this configures the way that the wishlist operates on your online storefront.
 	- [App Configuration — Launch Point](app-configuration-launch-point.html)
 	- [App Configuration — Add Items to Wishlist](app-configuration-add-items-to-wishlist.md)
@@ -42,8 +42,8 @@ The menu items in your wishlist configuration include:
 	- [Wishlist Report](reporting.md#wishlist-report)
 	- [Product Report](reporting.md#product-report)
 - [Integration](integration.html) — tbd
-- [Documentation] — the documentation you're reading at the moment
-- [Logout] — use this to log out of your wishlist account
+- [Documentation](index.md) — the documentation you're reading at the moment
+- **Logout** — use this to log out of your wishlist account
 
 Follow any of the links above to get additional information about each menu item in the wishlist's administration interface.
 
