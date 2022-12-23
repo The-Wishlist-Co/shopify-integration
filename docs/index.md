@@ -20,29 +20,29 @@ The menu items in your wishlist configuration include:
 - [Subscription](subscription.html) — use this option to manage your subscription to the wishlist.
 - [App Configurations](app-configurations.html) — this configures the way that the wishlist operates on your online storefront.
 	- [App Configuration — Launch Point](app-configuration-launch-point.html)
-	- [[App Configuration — Add Items to Wishlist]]
-		- [[App Configuration — Add Items to Wishlist#Product Detail Page|Product Detail Page]]
+	- [App Configuration — Add Items to Wishlist](app-configuration-add-items-to-wishlist.md)
+		- [Product Detail Page](app-configuration-add-items-to-wishlist.md#product-detail-page)
 		- [[App Configuration — Add Items to Wishlist#Collection page|Collection Page]]
 		- [[App Configuration — Add Items to Wishlist#Add to Wishlist popup|Add To Wishlist Popup]]
 		- [[App Configuration — Add Items to Wishlist#Confirmation popup|Confirmation Popup]]
-	- [[App Configuration — Wishlist Page]]
+	- [App Configuration — Wishlist Page](app-configuration-wishlist-page.html)
 		- [[App Configuration — Wishlist Page#Add to Cart Button|Add to Cart Button]]
 		- [[App Configuration — Wishlist Page#Configuration page content and styles|Configuration page content and styles]]
 		- [[App Configuration — Wishlist Page#Default Wishlist Name|Default Wishlist Name]]
 		- [[App Configuration — Wishlist Page#Multiple Wishlist|Multiple Wishlist]]
 		- [[App Configuration — Wishlist Page#Share Wishlist|Share Wishlist]]
-	- [[App Configuration — Notifications]]
+	- [App Configuration — Notifications](app-configuration-notifications.md)
 		- [[App Configuration — Notifications#Reminder Email|Reminder Email]]
 		- [[App Configuration — Notifications#Price Drop Email|Price Drop Email]]
 		- [[App Configuration — Notifications#Low Stock Email|Low Stock Email]]
 		- [[App Configuration — Notifications#Back in Stock Email|Back in Stock Email]]
-- [[Pos Config]] — this describes how the wishlist operates in your physical stores and its interaction with Point Of Sale systems.
-- [[Reporting]] — provides a range of reports to allow you to monitor customer wishlist use
+- [Pos Config](pos-config.md) — this describes how the wishlist operates in your physical stores and its interaction with Point Of Sale systems.
+- [Reporting](reporting.md) — provides a range of reports to allow you to monitor customer wishlist use
 	- [[Reporting#Wishlist Report|Wishlist Report]]
 	- [[Reporting#Product Report|Product Report]]
-- [[Integration]] — ==???==
-- [[Documentation]] — the documentation you're reading at the moment
-- [[Logout]] — use this to log out of your wishlist account
+- [Integration](integration.html) — ==???==
+- [Documentation] — the documentation you're reading at the moment
+- [Logout] — use this to log out of your wishlist account
 
 Follow any of the links above to get additional information about each menu item in the wishlist's administration interface.
 

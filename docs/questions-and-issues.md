@@ -1,6 +1,4 @@
-## Questions
-
-Questions for Matt and Shane.
+## Questions for Matt and Shane
 
 |  #  | Question                                                                                                                                                                                                             | Answer |
 |:---:| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -12,7 +10,7 @@ Questions for Matt and Shane.
 |  6  | How does the email/social media sharing of wishlists work? Can the format and style be customised?                                                                                                                   |        |
 |  7  | I don't seem to get email for downloaded reports. Is this a bug, or something I've done wrong? What does that downloaded data look like?                                                                             |        |
 
-## Issues
+## Issues Matt and Shane may want to address
 
 Things I've noticed that should be fixed.
 
