@@ -9,7 +9,7 @@ There are four different configurations related to this:
 
 These four sections of the configuration are available by opening the appropriate section of the page.
 
-![](assets/Pasted image 20221015155442.png)
+![Add items to wishlist configuration sections](assets/add-to-wishlist-configuration-sections.png)
 
 ## Product Detail Page
 
@@ -28,7 +28,7 @@ There are five different button styles supported:
 
 You can select one of these five:
 
-![](assets/Pasted image 20221015160232.png)
+![Add to wishlist button display styles](assets/add-to-wishlist-button-styles.png)
 
 ### Button Icon and sizing
 
@@ -43,7 +43,7 @@ Both have the same options available.
 
 These options are illustrated below:
 
-![](assets/Pasted image 20221015160646.png)
+![Add to wishlist button icon and size](assets/add-to-wishlist-button-icon-and-size.png)
 
 ### Button position
 
@@ -58,17 +58,17 @@ The five options are:
 
 These can be selected (and can be different for) both desktop class devices and mobile devices.
 
-![](assets/Pasted image 20221015161046.png)
+![Add to wishlist button position options](assets/add-to-wishlist-button-position-options.png)
 
 **[AL, 15Oct22]** — we need to add some content here describing how the custom JS works
 
 In this example, the Add to Wishlist button has been configured to be displayed after the add-to-cart button:
 
-![](assets/Pasted image 20221015161647.png)
+![Add to wishlist button position example — after add to cart button](assets/add-to-wishlist-after-add-to-cart-example.png)
 
 Changing it to below the add-to-cart button has a different outcome:
 
-![](assets/Pasted image 20221015161758.png)
+![Add to wishlist button position example — below add to cart button](assets/add-add-to-wishlist-below-add-to-cart-example.png)
 
 ### Custom button styling with CSS
 
@@ -80,7 +80,7 @@ You can apply custom styling to the Add to Wishlist by providing a background co
 
 These are illustrated below:
 
-![Custom button styling](assets/add-to-wishlist-custom-button-styling.png)
+![Add to wishlist button custom button styling](assets/add-to-wishlist-custom-button-styling.png)
 
 ### Button text and font
 
@@ -88,7 +88,7 @@ Finally, you can configure the text that's displayed on the Add to Wishlist butt
 
 The screenshot below illustrates these options:
 
-![](assets/Pasted image 20221015162726.png)
+![Add to wishlist button text and font](assets/add-to-wishlist-button-text-and-font.png)
 
 ## Collection page
 
@@ -96,7 +96,7 @@ You can optionally inject an “Add to Wishlist” icon on your shop's collectio
 
 The following example illustrates:
 
-![](assets/Pasted image 20221015194218.png)
+![Add to wishlist collection page example](assets/add-to-wishlist-collection-page-example.png)
 
 ### Rendering the button
 
@@ -111,7 +111,7 @@ A small amount of additional HTML needs to be added to the product card HTML to 
 
 The following screenshot illustrates where the required HTML can be found:
 
-![](assets/Pasted image 20221015195227.png)
+![Add to wishlistr collection page HTML source](assets/add-to-wishlist-collection-page-html-source.png)
 
 Once these changes are made, the wishlist button will be shown on each item on your shop's collections page.
 
@@ -127,7 +127,7 @@ Each of these configuration options is available for two separate wishlist butto
 
 The following screenshot illustrates:
 
-![](assets/Pasted image 20221015200836.png)
+![Add to wishlist collection page icon](assets/add-to-wishlist-collection-page-icon.png)
 
 ### Configuring the button
 
@@ -135,19 +135,19 @@ Finally, having added the button to the product card within your collections, an
 
 You can select the colour used to display the icon within the button, and you can specify some custom CSS to modify the button's behaviour. The CSS can be provided for both desktop and mobile customers.
 
-![](assets/Pasted image 20221015201130.png)
+![Add to wishlist collection page CSS](assets/add-to-wishlist-collection-page-button-css.png)
 
 ## Add to Wishlist popup
 
 When a customer adds something to their wishlist, a popup window is presented to them so that they can select the article variant (colour, style, etc) and the wishlist they want to add the item to. The following example illustrates:
 
-![](assets/Pasted image 20221016082900.png)
+![Add to wishlist popup](assets/add-to-wishlist-popup.png)
 
 ### Configure variant popup
 
 The top area of the popup, showing the variant selection, can be configured using a title, HTML fragment, and colour selection.
 
-![](assets/Pasted image 20221016083906.png)
+![Add to wishlist popup variant config](assets/add-to-wishlist-popup-variant-config.png)
 
 - The variant popup title can be configured. In the example above, it's set to “Select a variant”.
 - The HTML used to present the variants can be provided. This shows the list of variants — in this example, colours. This is described in more detail below.
@@ -159,12 +159,12 @@ The default HTML template is shown below:
 <h4 class="wishlist-title" variant_title></h4>
 <div class="variant-list" option_list>
   <div class="form-group" option_item>
-    <label>{{option_name}}</label>
+    <label>«option_name»</label>
     <div class="form-control">
       <div class="variant-item-list" value_list>
         <label class="variant-item" value_item>
-          <input type="radio" class="variant-item-input" name="{{option_name}}" id="{{option_value}}">
-          <span>{{option_value}}</span>
+          <input type="radio" class="variant-item-input" name="«option_name»" id="«option_value»">
+          <span>«option_value»</span>
         </label>
       </div>
     </div>
@@ -175,7 +175,7 @@ The default HTML template is shown below:
 There are several important characteristics of the HTML template that is used.
 
 1. The heading must use the `wishlist-title` class and reference `variant_title` to correctly show the title text in the configured style.
-2. The list of options presented must include `{{option_name}}` and `{{option_value}}` to correctly pick up the variant name and value.
+2. The list of options presented must include `«option_name»` and `«option_value»` to correctly pick up the variant name and value.
 
 ### Configure wishlist popup
 
