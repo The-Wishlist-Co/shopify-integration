@@ -28,7 +28,7 @@ The menu items in your wishlist configuration include:
 		- [Confirmation Popup](app-configuration-add-items-to-wishlist.md#confirmation-popup)
 	- [App Configuration — Wishlist Page](app-configuration-wishlist-page.html)
 		- [Add to Cart Button](app-configuration-wishlist-page.md#add-to-cart-button)
-		- [Configuration page content and styles](app-configuration-wishlist-page.md#configuration-page-content-and-styles)
+		- [Configuration page content and styles](app-configuration-wishlist-page.md#configure-page-content-and-styles)
 		- [Default Wishlist Name](app-configuration-wishlist-page.md#default-wishlist-name)
 		- [Multiple Wishlist](app-configuration-wishlist-page.md#multiple-wishlist)
 		- [Share Wishlist](app-configuration-wishlist-page.md#share-wishlist)
