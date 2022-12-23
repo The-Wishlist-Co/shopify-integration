@@ -160,12 +160,12 @@ The default HTML template is shown below:
 <h4 class="wishlist-title" variant_title></h4>
 <div class="variant-list" option_list>
   <div class="form-group" option_item>
-    <label>«option_name»</label>
+    <label>{{option_name}}</label>
     <div class="form-control">
       <div class="variant-item-list" value_list>
         <label class="variant-item" value_item>
-          <input type="radio" class="variant-item-input" name="«option_name»" id="«option_value»">
-          <span>«option_value»</span>
+          <input type="radio" class="variant-item-input" name="«option_name»" id="{{option_value}}">
+          <span>{{option_value}}</span>
         </label>
       </div>
     </div>
@@ -176,7 +176,7 @@ The default HTML template is shown below:
 There are several important characteristics of the HTML template that is used.
 
 1. The heading must use the `wishlist-title` class and reference `variant_title` to correctly show the title text in the configured style.
-2. The list of options presented must include `«option_name»` and `«option_value»` to correctly pick up the variant name and value.
+2. The list of options presented must include `{{option_name}}` and `{{option_value}}` to correctly pick up the variant name and value.
 
 ### Configure wishlist popup
 
@@ -199,11 +199,11 @@ The default HTML template is shown below:
   <label wishlist_item>
     <input type="checkbox"
            class="wishlist-list-input"
-           id="wishlist-item-\{\{wishlistId\}\}"
-           name="wishlist-item-\{\{wishlistId\}\}"
-           data-wishlist-default="\{\{is_default_wishlist\}\}">
+           id="wishlist-item-{{wishlistId}}"
+           name="wishlist-item-{{wishlistId}}"
+           data-wishlist-default="{{is_default_wishlist}}">
     <span class="type-check"></span>
-    <span class="title-wishlist" title="\{\{wishlist_name\}\}">\{\{wishlist_name\}\}</span>
+    <span class="title-wishlist" title="{{wishlist_name}}">{{wishlist_name}}</span>
     <div class="remove-variant" remove_variant>Remove</div>
   </label>
 </div>
@@ -212,9 +212,9 @@ The default HTML template is shown below:
 There are several important characteristics of the HTML template that is used.
 
 1. The heading must use the `wishlist-title` class and reference `wishlist_title` to correctly show the title text in the configured style.
-2. The list of options presented must use the `wishlist-list-input` class, and use `wishlist-item-\{\{wishlistId\}\}` as the `id` and `name` of the `<input>` element.
-3. The description of each wishlist must be a span of type `title-wishlist`, with a title and span content of `\{\{wishlist_name\}\}`.
-4. The default wishlist can be flagged with `\{\{is_default_wishlist\}\}`.
+2. The list of options presented must use the `wishlist-list-input` class, and use `wishlist-item-{{wishlistId}}` as the `id` and `name` of the `<input>` element.
+3. The description of each wishlist must be a span of type `title-wishlist`, with a title and span content of `{{wishlist_name}}`.
+4. The default wishlist can be flagged with `{{is_default_wishlist}}`.
 
 ### Font
 
@@ -281,7 +281,7 @@ You can completely customise the HTML template used to display the confirmation 
           {{product_name}}
         </div>
         <div class="body__product-price">
-          \{\{product_price\}\}
+          {{product_price}}
         </div>
       </div>
       <div class="footer__toast">
