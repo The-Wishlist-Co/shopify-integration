@@ -1,5 +1,3 @@
-# [[Home]]
-
 The Wishlist — a product of The Wishlist Co — provides stores with a hosted wishlist solution that can be shared between their brick-and-mortar stores and online storefronts.
 The initial implementation of The Wishlist provides integration with Shopify online storefronts, although additional solutions will be added later.
 
@@ -18,10 +16,10 @@ At this point, you should see an administration page for the wishlist. It can be
 
 The menu items in your wishlist configuration include:
 
-- [[Dashboard]] — provides an overall summary of your customer's wishlist use.
-- [[Subscription]] — use this option to manage your subscription to the wishlist.
-- [[App Configurations]] — this configures the way that the wishlist operates on your online storefront.
-	- [[App Configuration — Launch Point]]
+- [Dashboard](/dashboard.html) — provides an overall summary of your customer's wishlist use.
+- [Subscription](/subscription.html) — use this option to manage your subscription to the wishlist.
+- [App Configurations](/app-configurations.html) — this configures the way that the wishlist operates on your online storefront.
+	- [App Configuration — Launch Point](/app-configuration-launch-point.html)
 	- [[App Configuration — Add Items to Wishlist]]
 		- [[App Configuration — Add Items to Wishlist#Product Detail Page|Product Detail Page]]
 		- [[App Configuration — Add Items to Wishlist#Collection page|Collection Page]]
