@@ -3,7 +3,7 @@ The **Add Items to Wishlist** configuration is used to describe the way a custom
 There are four different configurations related to this:
 
 - The details displayed on a [product detail page](#product-detail-page) — that is, when the customer is viewing a specific product;
-- The details displayed on a [collections page](#collection-page — when the customer is looking at the range of bags available, for example;
+- The details displayed on a [collections page](#collection-page) — when the customer is looking at the range of bags available, for example;
 - The way in which the [“Add to Wishlist”](#add-to-wishlist-popup) popup is configured when required; and
 - The configuration of the transient [confirmation popup](#confirmation-popup) displayed when a customer has added an article to their wishlist.
 
@@ -50,11 +50,11 @@ These options are illustrated below:
 The button position within the product detail page can be customised. There are four built-in options, or you can supply a Javascript snippet that will be injected into the page to load and position the button.
 
 The five options are:
-- Before “Add to Cart”;
-- After “Add to Cart”;
-- Above “Add to Cart”;
-- Below “Add to Cart; or
-- Custom script.
+- `Before “Add to Cart”`;
+- `After “Add to Cart”`;
+- `Above “Add to Cart”`;
+- `Below “Add to Cart”`; or
+- `Custom script`.
 
 These can be selected (and can be different for) both desktop class devices and mobile devices.
 
@@ -62,25 +62,25 @@ These can be selected (and can be different for) both desktop class devices and 
 
 **[AL, 15Oct22]** — we need to add some content here describing how the custom JS works
 
-In this example, the Add to Wishlist button has been configured to be displayed “After Add to Cart” button:
+In this example, the Add to Wishlist button has been configured to be displayed after the add-to-cart button:
 
 ![](assets/Pasted image 20221015161647.png)
 
-Changing it to “Below Add to Cart” has a different outcome:
+Changing it to below the add-to-cart button has a different outcome:
 
 ![](assets/Pasted image 20221015161758.png)
 
 ### Custom button styling with CSS
 
 You can apply custom styling to the Add to Wishlist by providing a background colour and a CSS snippet that is executed. There are actually four sets of these:
-- Before added to wishlist, desktop;
-- Before added to wishlist, mobile;
-- After added to wishlist, desktop; and
-- After added to wishlist, mobile.
+- Before user has added to their wishlist, desktop;
+- Before user has added to their wishlist, mobile;
+- After user has added to their wishlist, desktop; and
+- After user has added to their wishlist, mobile.
 
 These are illustrated below:
 
-![](assets/Pasted image 20221015162121.png)
+![Custom button styling](assets/add-to-wishlist-custom-button-styling.png)
 
 ### Button text and font
 
@@ -92,7 +92,7 @@ The screenshot below illustrates these options:
 
 ## Collection page
 
-You can optionally inject an “Add to Wishlist” icon on your shop's collection pages. If enabled, each collections has the add to wishlist icon overlaid on each item's image.
+You can optionally inject an “Add to Wishlist” icon on your shop's collection pages. If enabled, each collections has the add to wishlist icon included along with each item's image.
 
 The following example illustrates:
 
@@ -224,13 +224,13 @@ The font used for both the variant and wishlist areas of the popup can be define
 - `Verdana`; or
 - `Garamond`.
 
-![[Pasted image 20221016092231.png|1280]]
+![](assets/Pasted image 20221016092231.png)
 
 ## Confirmation popup
 
 The confirmation popup is a transient popup shown to customers when they have added a product to their wishlist. It can be turned on or off as required, and the HTML layout of the popup can be completely configured.
 
-![[Pasted image 20221026080439.png|1280]]
+![](assets/Pasted image 20221026080439.png)
 
 ### Enable/disable, and mobile settings
 
@@ -245,7 +245,7 @@ The configuration of this popup begins with two options that control when the po
 
 The icon shown in the confirmation popup heading can be customised. You can choose from four builtin icons (heart, bell, star, or ribbon) in either an outline or filled style. You can also upload a custom `.svg` file that holds the icon you want to use.
 
-You can choose the icon size — the default is 20⨉20.
+You can choose the icon size — the default is 20x20.
 
 ### Background colour, text, and location
 
