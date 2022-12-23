@@ -11,22 +11,16 @@
             "id": "428f89dee873d5ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reporting.md",
-                "mode": "preview"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "7e2490c25246876c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions and Issues.md",
-                "mode": "preview"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -35,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "docs/app-configuration-notifications.md",
                 "mode": "source"
               }
             }
@@ -44,11 +38,8 @@
             "id": "cb5fcbe68c5ca004",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Links and references.md",
-                "mode": "preview"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -118,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "docs/app-configuration-notifications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "docs/app-configuration-notifications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "docs/app-configuration-notifications.md"
               }
             }
           },
@@ -178,17 +169,28 @@
     "width": 300,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "21bf9bbe39afcfcd",
   "lastOpenFiles": [
+    "docs/app-configuration-launch-point.md",
+    "docs/reporting.md",
+    "docs/app-configurations.md",
+    "docs/app-configuration-wishlist-page.md",
+    "docs/app-configuration-add-items-to-wishlist.md",
     "Questions and Issues.md",
     "App Configuration — Notifications.md",
     "Reporting.md",
     "App Configuration — Wishlist Page.md",
-    "App Configuration — Add Items to Wishlist.md",
-    "App Configuration — Launch Point.md",
-    "App Configurations.md",
-    "Home.md",
-    "Links and references.md",
-    "Image bucket/Pasted image 20221015161647.png"
+    "App Configuration — Add Items to Wishlist.md"
   ]
 }

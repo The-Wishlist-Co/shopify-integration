@@ -9,7 +9,7 @@ There are four different configurations related to this:
 
 These four sections of the configuration are available by opening the appropriate section of the page.
 
-![Add items to wishlist configuration sections](assets/add-to-wishlist-configuration-sections.png)
+![Add to wishlist configuration sections](assets/add-to-wishlist-configuration-sections.png)
 
 ## Product Detail Page
 
@@ -28,7 +28,7 @@ There are five different button styles supported:
 
 You can select one of these five:
 
-![Add to wishlist button display styles](assets/add-to-wishlist-button-styles.png)
+![Add to wishlist button styles](assets/add-to-wishlist-button-styles.png)
 
 ### Button Icon and sizing
 
@@ -64,11 +64,11 @@ These can be selected (and can be different for) both desktop class devices and 
 
 In this example, the Add to Wishlist button has been configured to be displayed after the add-to-cart button:
 
-![Add to wishlist button position example — after add to cart button](assets/add-to-wishlist-after-add-to-cart-example.png)
+![Add to wishlist after add-to-cart example](assets/add-to-wishlist-after-add-to-cart-example.png)
 
 Changing it to below the add-to-cart button has a different outcome:
 
-![Add to wishlist button position example — below add to cart button](assets/add-add-to-wishlist-below-add-to-cart-example.png)
+![Add to wishlist below add-to-cart example](assets/add-add-to-wishlist-below-add-to-cart-example.png)
 
 ### Custom button styling with CSS
 
@@ -181,14 +181,14 @@ There are several important characteristics of the HTML template that is used.
 
 The next area of the popup, showing the wishlist to add the item to, can be configured using a title, HTML fragment, and colour selection.
 
-![](assets/Pasted image 20221016091140.png)
+![Add to wishlist popup wishlist config](assets/add-to-wishlist-popup-wishlist-config.png)
 
 - The variant popup title can be configured. In the example above, it's set to “Select a Wishlist”.
 - The HTML used to present the wishlists can be provided. This shows the list of wishlists — in this example, two are shown. This is described in more detail below.
 - The colours used for the wishlist popup title can be configured — both the text colour and background colour. This can be set for both the desktop and mobile class devices.
 
 Note that the use of multiple wishlists is optional. If this is disabled, or the customer only has a single wishlist, this area of the wishlist popup will not be shown.
-- Refer to [multiple wishlist](app-configuration-wishlist-page.md#multiple-wishlist for details on multiple wishlists.
+- Refer to [multiple wishlist](app-configuration-wishlist-page.md#multiple-wishlist) for details on multiple wishlists.
 
 The default HTML template is shown below:
 
@@ -224,13 +224,13 @@ The font used for both the variant and wishlist areas of the popup can be define
 - `Verdana`; or
 - `Garamond`.
 
-![](assets/Pasted image 20221016092231.png)
+![Add to wishlist popup font config](assets/add-to-wishlist-popup-font-config.png)
 
 ## Confirmation popup
 
 The confirmation popup is a transient popup shown to customers when they have added a product to their wishlist. It can be turned on or off as required, and the HTML layout of the popup can be completely configured.
 
-![](assets/Pasted image 20221026080439.png)
+![Add to wishlist confirmation popup](assets/add-to-wishlist-confirmation-popup.png)
 
 ### Enable/disable, and mobile settings
 
@@ -245,13 +245,13 @@ The configuration of this popup begins with two options that control when the po
 
 The icon shown in the confirmation popup heading can be customised. You can choose from four builtin icons (heart, bell, star, or ribbon) in either an outline or filled style. You can also upload a custom `.svg` file that holds the icon you want to use.
 
-You can choose the icon size — the default is 20x20.
+You can choose the icon size — the default is 20⨉x20.
 
 ### Background colour, text, and location
 
 The next option is to choose the background colour for the confirmation popup. The default is `#000000` (black), but this can be changed as required. The following example shows the selection of a green colour:
 
-![](assets/Pasted image 20221026080829.png)
+![Add to wishlist confirmation background](assets/add-to-wishlist-confirmation-background.png)
 
 You can also change the text that is displayed in the foreground of the popup. The default is `This item has been added to your Wishlist`, but this can be customised as required.
 
@@ -272,15 +272,15 @@ You can completely customise the HTML template used to display the confirmation 
 <div class="toast__body">
   <div class="body_container">
     <div class="body__product-image" toast_product_img_wrapper="">
-      <img src="{{product_img_url}}" alt="product">
+      <img src="«product_img_url»" alt="product">
     </div>
     <div class="body__product-wapper-detail">
       <div class="body__product-detail" toast_product_detail="">
         <div class="body__product-name">
-          {{product_name}}
+          «product_name»
         </div>
         <div class="body__product-price">
-          {{product_price}}
+          «product_price»
         </div>
       </div>
       <div class="footer__toast">
@@ -298,7 +298,7 @@ You should use this as the basis for your confirmation popup, and customise it a
 
 You can also supply some custom CSS that applies to both desktop and mobile devices. By default, this is blank, but you can use it as required.
 
-![](assets/Pasted image 20221026082936.png)
+![Add to wishlist confirmation popup HTML template](assets/add-to-wishlist-confirmation-popup-html-template.png)
 
 ### Font
 
