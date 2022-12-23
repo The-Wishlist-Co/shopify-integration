@@ -80,7 +80,7 @@ You can apply custom styling to the Add to Wishlist by providing a background co
 
 These are illustrated below:
 
-![](assets/add-to-wishlist-custom-button-styling.png)
+![Custom button styling](assets/add-to-wishlist-custom-button-styling.png)
 
 ### Button text and font
 
