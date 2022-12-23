@@ -1,16 +1,17 @@
+{% raw %} 
 The **wishlist page** configuration can be used to customise the appearance of the customer's wishlist page. There are five different aspects of this wishlist page that you can configure.
 
-- The [[#Add to Cart Button]] can be configured.
-- The [[#Configuration page content and styles]] configuration can be used to describe what information is shown to the customer on their wishlist page.
-- The [[#Default Wishlist Name]] is used to set the customer's default wishlist name.
-- The [[#Multiple Wishlist]] configuration is used to enable or disable multiple wishlists. If enabled, a customer can maintain multiple wishlists.
-- The [[#Share Wishlist]] configuration is used to describe whether a customer can share their wishlist via email or social media.
+- The [Add to Cart Button](#add-to-cart-button) can be configured.
+- The [Configuration page content and styles](#configuration-page-content-and-styles) configuration can be used to describe what information is shown to the customer on their wishlist page.
+- The [Default Wishlist Name](#default-wishlist-name) is used to set the customer's default wishlist name.
+- The [Multiple Wishlist](#multiple-wishlist) configuration is used to enable or disable multiple wishlists. If enabled, a customer can maintain multiple wishlists.
+- The [Share Wishlist](#share-wishlist) configuration is used to describe whether a customer can share their wishlist via email or social media.
 
 ## Add to Cart Button
 
 The **Add to Cart Button** configuration allows you to customise the appearance of the “Add to Cart” button shown on the customer's wishlist page. This allows you to customise this button so that it has the same visual characteristics (look & feel, colours, etc) as the other UI elements related to the customer's wishlist (such as the “Add to Wishlist” button).
 
-![[Pasted image 20221030221434.png]]
+![](assets/Pasted image 20221030221434.png)
 
 There are several elements of the “Add to Cart” button that can be configured.
 
@@ -18,7 +19,7 @@ There are several elements of the “Add to Cart” button that can be configure
 
 First, you can configure the button shown to the customer against each product in their wishlist.
 
-![[Pasted image 20221030222428.png]]
+![](assets/Pasted image 20221030222428.png)
 
 There are five basic options:
 
@@ -32,7 +33,7 @@ The visual effect of each of these options can be seen in the screenshot above.
 
 If you change the button style, the wireframe in the top-right corner of the page will be updated to reflect your choice. For example:
 
-![[Pasted image 20221030221555.png]]
+![](assets/Pasted image 20221030221555.png)
 
 ### Button icon
 
@@ -40,7 +41,7 @@ If you are using one of the styles that includes an icon, you can define the ico
 
 You can also change the colour of the icon using the colour selector below the icon list. The following example illustrates:
 
-![[Pasted image 20221030221641.png]]
+![](assets/Pasted image 20221030221641.png)
 
 If none of the builtin icons are appropriate, you can upload a custom icon using the “Upload your custom icon” option.
 
@@ -54,7 +55,7 @@ Need info from Matt and Shane on this one. It's unclear how this works.
 
 The final option available is to define the message shown on the button, along with the colour and font for the message.
 
-![[Pasted image 20221030222633.png]]
+![](assets/Pasted image 20221030222633.png)
 
 The default message is “Add To Cart”, shown in black. You can change both of these. The colour selection is shown after the message.
 
@@ -70,7 +71,7 @@ There is a single definition of the content, and different styling options that 
 
 The following screenshot illustrates:
 
-![[Pasted image 20221030223254.png]]
+![](assets/Pasted image 20221030223254.png)
 
 ### Content
 
@@ -79,24 +80,24 @@ The content is provided as a HTML fragment that's injected into your wishlist pa
 The default values are shown below:
 
 ```html
-<div class="container--wishlist-tab-and-action">	
-    <div class="d-flex wishlist-tab" wishlist_tab></div>	
-    <div class="container__wishlist-action w-fc d-flex jc-fe">	
-        <div class="d-flex">	
-            <div class="container__create-wishlist" create_wishlist_wrapper></div>	
-            <div class="container__wishlist-action-edit"></div>	
-            <div class="container__wishlist-action-delete d-flex"></div>	
-        </div>	
-    </div>	
-</div>	
-<div class="p-15 pr-0 container--share-and-search">	
-    <div class="container__share-wishlist"></div>	
-    <div class="d-flex justify-center search-container"></div>	
-</div>	
-<div class="p-15 pr-0 product-list"></div>	
-<div class="p-15 container__pagination">	
-    <div class="pagination__page-size"></div>	
-    <div class="pagination__page-list"></div>	
+<div class="container--wishlist-tab-and-action">
+  <div class="d-flex wishlist-tab" wishlist_tab></div>
+  <div class="container__wishlist-action w-fc d-flex jc-fe">
+    <div class="d-flex">
+      <div class="container__create-wishlist" create_wishlist_wrapper></div>
+      <div class="container__wishlist-action-edit"></div>
+      <div class="container__wishlist-action-delete d-flex"></div>
+    </div>
+  </div>
+</div>
+<div class="p-15 pr-0 container--share-and-search">
+  <div class="container__share-wishlist"></div>
+  <div class="d-flex justify-center search-container"></div>
+</div>
+<div class="p-15 pr-0 product-list"></div>
+<div class="p-15 container__pagination">
+  <div class="pagination__page-size"></div>
+  <div class="pagination__page-list"></div>
 </div>
 ```
 
@@ -121,19 +122,19 @@ The appropriate CSS fragment will be used depending on the customer's device, al
 
 The customer is able to rename their wishlist if they want — however, you can define what their default wishlist name is. The next configuration section shows this.
 
-![[Pasted image 20221030224543.png]]
+![](assets/Pasted image 20221030224543.png)
 
 Making a change here will _not_ affect existing wishlists — it will only affect new customers who create their wishlist for the first time.
 
 ```ad-info
-Validate thie assumption!
+Validate this assumption!
 ```
 
 ## Multiple Wishlist
 
 You can control whether or not customers can have multiple wishlists. If this option is turned off, customers can only have a single wishlist. If it's turned on, the customer can have multiple wishlists.
 
-![[Pasted image 20221030224723.png]]
+![](assets/Pasted image 20221030224723.png)
 
 Note that if this option is turned on, and you then turn it off, any customer who had multiple wishlists will lose access to their additional wishlists. Only their default wishlist will be available to them. Those additional wishlists aren't destroyed, however — if you turn the option back on, those additional wishlists will once again become available.
 
@@ -141,10 +142,11 @@ Note that if this option is turned on, and you then turn it off, any customer wh
 
 The final option available for configuring the customer's wishlist is to determine whether or not the customer can share their wishlist.
 
-![[Pasted image 20221030225338.png]]
+![](assets/Pasted image 20221030225338.png)
 
 If this is enabled, the customer can share their wishlist via either an email message or using social media.
 
 ```ad-warning
 What does this look like?
 ```
+{% endraw %}
