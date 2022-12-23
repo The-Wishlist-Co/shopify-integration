@@ -1,5 +1,3 @@
-# [[Questions and Issues]]
-
 ## Questions
 
 Questions for Matt and Shane.
