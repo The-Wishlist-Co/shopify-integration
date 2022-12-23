@@ -6,7 +6,7 @@ The **Launch Point** configuration is used to describe how the wishlist is launc
 
 Using the selection at the top of the Launch Point configuration, you can choose which of the three options you want to use.
 
-![[Pasted image 20221015102151.png|800]]
+![](assets/Pasted image 20221015102151.png)
 
 Based on your selection, the rest of the Launch Point configuration will change.
 
@@ -16,13 +16,13 @@ If you elect to use the page header to launch The Wishlist, there are a number o
 
 As you work through these options, a wireframe page template shows the effect of your changes.
 
-![[Pasted image 20221015104455.png|800]]
+![](assets/Pasted image 20221015104455.png)
 
 ### Header icon position
 
 There are four options available that you can use to configure where the icon for The Wishlist appears on your page header. They are all available from the “Configuration header icon position” drop-down list.
 
-![[Pasted image 20221015103412.png|800]]
+![](assets/Pasted image 20221015103412.png)
 
 These options are:
 - `Before Search` — the icon will be added into the header immediately before your search field
@@ -36,7 +36,7 @@ Having chosen the position of your header icon, you can fine-tune that position 
 
 You can configure two CSS fragments — one for desktop class devices, and one for mobile class devices.
 
-![[Pasted image 20221015103342.png|800]]
+![](assets/Pasted image 20221015103342.png)
 
 ### Header icon
 
@@ -50,7 +50,7 @@ You can further configure the icon by specifying its size in both width and heig
 
 These options are all available in the header icon selection:
 
-![[Pasted image 20221015104014.png|800]]
+![](assets/Pasted image 20221015104014.png)
 
 ### “Dot” appearance
 
@@ -62,7 +62,7 @@ If the dot is turned on, you can select its passive colour and the colour that t
 
 These are all accessible from the “Configure dot appearance” section of the page:
 
-![[Pasted image 20221015104240.png|800]]
+![](assets/Pasted image 20221015104240.png)
 
 ## Launching via a menu item
 
@@ -76,13 +76,13 @@ If you elect to have a customer's wishlist launched via menu item, there are fiv
 
 The wishlist will then be accessible as a menu item within your shop.
 
-![[Pasted image 20221015104736.png|800]]
+![](assets/Pasted image 20221015104736.png)
 
 ## Launching with a floating button
 
 The final option available for display of the wishlist launch point is to use a floating button. This will be an icon that floats on top of the background page, and will stay visible even if the customer scrolls up and down a page.
 
-![[Pasted image 20221015111811.png|800]]
+![](assets/Pasted image 20221015111811.png)
 
 ### Floating icon style
 
@@ -90,7 +90,7 @@ You can select the style of floating icon that you want. It can be either:
 - A solid background square, with the icon shown inside that square; or
 - The icon with a transparent background.
 
-![[Pasted image 20221015112100.png|800]]
+![](assets/Pasted image 20221015112100.png)
 
 One word of caution: if you use the option with a background colour, you need to ensure that your icon and the background are different colours. By default both are black (`#000000`) and this simply results in a black square being shown. You'll need to ensure that you change either the background colour or the icon colour (or both) so that they are contrasting colours.
 
@@ -102,7 +102,7 @@ The defaults are available as either an outline or a filled icon.
 
 You can change the colour used for the icon, as well as the icon background colour. The background colour is only used if you've selected to use the background + icon style — if the icon-only style is used, the background colour doesn't matter.
 
-![[Pasted image 20221015112507.png|800]]
+![](assets/Pasted image 20221015112507.png)
 
 ### Floating icon placement
 
@@ -114,7 +114,7 @@ You can select the placement for the floating icon. There are four options avail
 
 As you make these changes, the wireframe template is updated to reflect your change.
 
-![[Pasted image 20221015112655.png|800]]
+![](assets/Pasted image 20221015112655.png)
 
 ### Floating icon wishlist product count
 
@@ -131,5 +131,5 @@ There are four font options: `inherit`, which uses the same basic font as the pa
 
 All of these product count options are accessible in the `Display number of items in user's Wishlist on the launch point` area of the page:
 
-![[Pasted image 20221015113113.png|800]]
+![](assets/Pasted image 20221015113113.png)
 
