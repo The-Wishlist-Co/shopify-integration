@@ -1,17 +1,17 @@
 {% raw %} 
 The **wishlist page** configuration can be used to customise the appearance of the customer's wishlist page. There are five different aspects of this wishlist page that you can configure.
 
-- The [Add to Cart Button](#add-to-cart-button) can be configured.
-- The [Configuration page content and styles](#configuration-page-content-and-styles) configuration can be used to describe what information is shown to the customer on their wishlist page.
-- The [Default Wishlist Name](#default-wishlist-name) is used to set the customer's default wishlist name.
-- The [Multiple Wishlist](#multiple-wishlist) configuration is used to enable or disable multiple wishlists. If enabled, a customer can maintain multiple wishlists.
-- The [Share Wishlist](#share-wishlist) configuration is used to describe whether a customer can share their wishlist via email or social media.
+- The [Add to Cart button](#add-to-cart-button) can be configured.
+- The [page content and styles](#configure-page-content-and-styles) configuration can be used to describe what information is shown to the customer on their wishlist page.
+- The [default wishlist name](#default-wishlist-name) is used to set the customer's default wishlist name.
+- The [multiple wishlist](#multiple-wishlist) configuration is used to enable or disable multiple wishlists. If enabled, a customer can maintain multiple wishlists.
+- The [share wishlist](#share-wishlist) configuration is used to describe whether a customer can share their wishlist via email or social media.
 
 ## Add to Cart Button
 
 The **Add to Cart Button** configuration allows you to customise the appearance of the “Add to Cart” button shown on the customer's wishlist page. This allows you to customise this button so that it has the same visual characteristics (look & feel, colours, etc) as the other UI elements related to the customer's wishlist (such as the “Add to Wishlist” button).
 
-![](assets/Pasted image 20221030221434.png)
+![Wishlist page add-to-cart button](assets/wishlist-page-add-to-cart-button.png)
 
 There are several elements of the “Add to Cart” button that can be configured.
 
@@ -19,7 +19,7 @@ There are several elements of the “Add to Cart” button that can be configure
 
 First, you can configure the button shown to the customer against each product in their wishlist.
 
-![](assets/Pasted image 20221030222428.png)
+![Wishlist page add-to-cart button style](assets/wishlist-page-add-to-cart-button-style.png)
 
 There are five basic options:
 
@@ -33,7 +33,7 @@ The visual effect of each of these options can be seen in the screenshot above.
 
 If you change the button style, the wireframe in the top-right corner of the page will be updated to reflect your choice. For example:
 
-![](assets/Pasted image 20221030221555.png)
+![Wishlist page add-to-cart button style wireframe](assets/wishlist-page-add-to-cart-button-style-wireframe.png)
 
 ### Button icon
 
@@ -41,7 +41,7 @@ If you are using one of the styles that includes an icon, you can define the ico
 
 You can also change the colour of the icon using the colour selector below the icon list. The following example illustrates:
 
-![](assets/Pasted image 20221030221641.png)
+![Wishlist page add-to-cart button icon](assets/wishlist-page-add-to-cart-button-icon.png)
 
 If none of the builtin icons are appropriate, you can upload a custom icon using the “Upload your custom icon” option.
 
@@ -55,7 +55,7 @@ Need info from Matt and Shane on this one. It's unclear how this works.
 
 The final option available is to define the message shown on the button, along with the colour and font for the message.
 
-![](assets/Pasted image 20221030222633.png)
+![Wishlist page add-to-cart button message and font](assets/wishlist-page-add-to-cart-button-message-and-font.png)
 
 The default message is “Add To Cart”, shown in black. You can change both of these. The colour selection is shown after the message.
 
@@ -63,7 +63,7 @@ The default message is “Add To Cart”, shown in black. You can change both of
 
 You can also select the font that the message is shown in. There are four font options: `inherit`, which uses the same basic font as the page hosting the icon, as well as `Georgia`, `Verdana`, and `Garamond`. `Georgia` and `Garamond` are both serif fonts, while `Verdana` is a sans-serif font.
 
-## Configuration page content and styles
+## Configure page content and styles
 
 The next section you can configure for the wishlist page is the content and style of the page shown to the customer.
 
@@ -71,7 +71,7 @@ There is a single definition of the content, and different styling options that 
 
 The following screenshot illustrates:
 
-![](assets/Pasted image 20221030223254.png)
+![Wishlist page content style](assets/wishlist-page-content-style.png)
 
 ### Content
 
@@ -122,7 +122,7 @@ The appropriate CSS fragment will be used depending on the customer's device, al
 
 The customer is able to rename their wishlist if they want — however, you can define what their default wishlist name is. The next configuration section shows this.
 
-![](assets/Pasted image 20221030224543.png)
+![Wishlist page default wishlist name](assets/wishlist-page-default-wishlist-name.png)
 
 Making a change here will _not_ affect existing wishlists — it will only affect new customers who create their wishlist for the first time.
 
@@ -134,7 +134,7 @@ Validate this assumption!
 
 You can control whether or not customers can have multiple wishlists. If this option is turned off, customers can only have a single wishlist. If it's turned on, the customer can have multiple wishlists.
 
-![](assets/Pasted image 20221030224723.png)
+![Wishlist page multiple wishlists](assets/wishlist-page-multiple-wishlists.png)
 
 Note that if this option is turned on, and you then turn it off, any customer who had multiple wishlists will lose access to their additional wishlists. Only their default wishlist will be available to them. Those additional wishlists aren't destroyed, however — if you turn the option back on, those additional wishlists will once again become available.
 
@@ -142,7 +142,7 @@ Note that if this option is turned on, and you then turn it off, any customer wh
 
 The final option available for configuring the customer's wishlist is to determine whether or not the customer can share their wishlist.
 
-![](assets/Pasted image 20221030225338.png)
+![Wishlist page share wishlist](assets/wishlist-page-share-wishlist.png)
 
 If this is enabled, the customer can share their wishlist via either an email message or using social media.
 
