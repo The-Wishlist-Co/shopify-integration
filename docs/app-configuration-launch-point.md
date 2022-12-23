@@ -1,5 +1,3 @@
-# [[App Configuration — Launch Point]]
-
 The **Launch Point** configuration is used to describe how the wishlist is launched from your shop. There are three basic styles that can be used:
 
 - Adding the wishlist to the page header (this is the default);

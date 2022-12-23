@@ -1,5 +1,3 @@
-## [[Links and references]]
-
 | Reference | Link |
 | --------- | ---- |
 | TWC Fashion | https://twc-fashion-uat.myshopify.com/ |

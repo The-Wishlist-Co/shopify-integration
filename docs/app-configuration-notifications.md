@@ -1,5 +1,3 @@
-# [[App Configuration — Notifications]]
-
 The **Notifications** page of the configuration allows you to customise the way customers are notified about events related to their wishlist. There are four separate mechanisms:
 
 - The [[#Reminder Email|reminder]] notification can be used to regularly remind a customer about products in their wishlist;

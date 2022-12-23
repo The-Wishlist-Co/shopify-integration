@@ -1,4 +1,5 @@
 The Wishlist — a product of The Wishlist Co — provides stores with a hosted wishlist solution that can be shared between their brick-and-mortar stores and online storefronts.
+
 The initial implementation of The Wishlist provides integration with Shopify online storefronts, although additional solutions will be added later.
 
 This documentation focuses on the integration with Shopify.
@@ -22,25 +23,25 @@ The menu items in your wishlist configuration include:
 	- [App Configuration — Launch Point](app-configuration-launch-point.html)
 	- [App Configuration — Add Items to Wishlist](app-configuration-add-items-to-wishlist.md)
 		- [Product Detail Page](app-configuration-add-items-to-wishlist.md#product-detail-page)
-		- [[App Configuration — Add Items to Wishlist#Collection page|Collection Page]]
-		- [[App Configuration — Add Items to Wishlist#Add to Wishlist popup|Add To Wishlist Popup]]
-		- [[App Configuration — Add Items to Wishlist#Confirmation popup|Confirmation Popup]]
+		- [Collection Page](app-configuration-add-items-to-wishlist.md#collection-page)
+		- [Add To Wishlist Popup](app-configuration-add-items-to-wishlist.md#add-to-wishlist-popup)
+		- [Confirmation Popup](app-configuration-add-items-to-wishlist.md#confirmation-popup)
 	- [App Configuration — Wishlist Page](app-configuration-wishlist-page.html)
-		- [[App Configuration — Wishlist Page#Add to Cart Button|Add to Cart Button]]
-		- [[App Configuration — Wishlist Page#Configuration page content and styles|Configuration page content and styles]]
-		- [[App Configuration — Wishlist Page#Default Wishlist Name|Default Wishlist Name]]
-		- [[App Configuration — Wishlist Page#Multiple Wishlist|Multiple Wishlist]]
-		- [[App Configuration — Wishlist Page#Share Wishlist|Share Wishlist]]
+		- [Add to Cart Button|Add to Cart Button](app-configuration-wishlist-page.md#add-to-cart-button)
+		- [Configuration page content and styles](app-configuration-wishlist-page.md#configuration-page-content-and-styles)
+		- [Default Wishlist Name](app-configuration-wishlist-page.md#default-wishlist-name)
+		- [Multiple Wishlist](app-configuration-wishlist-page.md#multiple-wishlist)
+		- [Share Wishlist](app-configuration-wishlist-page.md#share-wishlist)
 	- [App Configuration — Notifications](app-configuration-notifications.md)
-		- [[App Configuration — Notifications#Reminder Email|Reminder Email]]
-		- [[App Configuration — Notifications#Price Drop Email|Price Drop Email]]
-		- [[App Configuration — Notifications#Low Stock Email|Low Stock Email]]
-		- [[App Configuration — Notifications#Back in Stock Email|Back in Stock Email]]
+		- [Reminder Email](app-configuration-notifications.md#reminder-email)
+		- [Price Drop Email](app-configuration-notifications.md#price-drop-email)
+		- [Low Stock Email](app-configuration-notifications.md#low-stock-email)
+		- [Back in Stock Email](app-configuration-notifications.md#back-in-stock-email)
 - [Pos Config](pos-config.md) — this describes how the wishlist operates in your physical stores and its interaction with Point Of Sale systems.
 - [Reporting](reporting.md) — provides a range of reports to allow you to monitor customer wishlist use
-	- [[Reporting#Wishlist Report|Wishlist Report]]
-	- [[Reporting#Product Report|Product Report]]
-- [Integration](integration.html) — ==???==
+	- [Wishlist Report](reporting.md#wishlist-report)
+	- [Product Report](reporting.md#product-report)
+- [Integration](integration.html) — tbd
 - [Documentation] — the documentation you're reading at the moment
 - [Logout] — use this to log out of your wishlist account
 

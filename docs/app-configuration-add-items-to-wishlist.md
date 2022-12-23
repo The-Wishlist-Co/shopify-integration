@@ -1,5 +1,3 @@
-# [[App Configuration — Add Items to Wishlist]]
-
 The **Add Items to Wishlist** configuration is used to describe the way a customer is able to add items to their wishlist.
 
 There are four different configurations related to this:
