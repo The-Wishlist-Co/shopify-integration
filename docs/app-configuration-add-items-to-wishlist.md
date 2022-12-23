@@ -198,11 +198,11 @@ The default HTML template is shown below:
   <label wishlist_item>
     <input type="checkbox"
            class="wishlist-list-input"
-           id="wishlist-item-<wishlistId>"
-           name="wishlist-item-<wishlistId>"
-           data-wishlist-default="{{is_default_wishlist}}">
+           id="wishlist-item-\{\{wishlistId\}\}"
+           name="wishlist-item-\{\{wishlistId\}\}"
+           data-wishlist-default="\{\{is_default_wishlist\}\}">
     <span class="type-check"></span>
-    <span class="title-wishlist" title="{{wishlist_name}}">{{wishlist_name}}</span>
+    <span class="title-wishlist" title="\{\{wishlist_name\}\}">\{\{wishlist_name\}\}</span>
     <div class="remove-variant" remove_variant>Remove</div>
   </label>
 </div>
@@ -211,9 +211,9 @@ The default HTML template is shown below:
 There are several important characteristics of the HTML template that is used.
 
 1. The heading must use the `wishlist-title` class and reference `wishlist_title` to correctly show the title text in the configured style.
-2. The list of options presented must use the `wishlist-list` class, and include `wishlist-item-<wishlistId>` as the `id` and `name` of the `<input>` element.
-3. The description of each wishlist must be a span of type `title-wishlist`, and a title and span content of `wishlist_name`.
-4. The default wishlist can be flagged with `is_default_wishlist`.
+2. The list of options presented must use the `wishlist-list-input` class, and use `wishlist-item-\{\{wishlistId\}\}` as the `id` and `name` of the `<input>` element.
+3. The description of each wishlist must be a span of type `title-wishlist`, with a title and span content of `\{\{wishlist_name\}\}`.
+4. The default wishlist can be flagged with `\{\{is_default_wishlist\}\}`.
 
 ### Font
 
@@ -272,15 +272,15 @@ You can completely customise the HTML template used to display the confirmation 
 <div class="toast__body">
   <div class="body_container">
     <div class="body__product-image" toast_product_img_wrapper="">
-      <img src="«product_img_url»" alt="product">
+      <img src="\{\{product_img_url\}\}" alt="product">
     </div>
     <div class="body__product-wapper-detail">
       <div class="body__product-detail" toast_product_detail="">
         <div class="body__product-name">
-          «product_name»
+          \{\{product_name\}\}
         </div>
         <div class="body__product-price">
-          «product_price»
+          \{\{product_price\}\}
         </div>
       </div>
       <div class="footer__toast">
