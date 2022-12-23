@@ -12,4 +12,4 @@ Whenever you've made a change to the wishlist application configuration, you nee
 
 These buttons are both in the bottom-right corner of each configuration page.
 
-![](assets/Pasted image 20221015111644.png)
+![Saving changes](assets/saving-changes.png)
