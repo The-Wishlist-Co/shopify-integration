@@ -20,7 +20,7 @@ The wishlist report allows you see a summary of what wishlists your customers ha
 ![](assets/Pasted image 20221030231500.png)
 
 You can see:
-- The total number of wishlists that customers have created.
+- The total number of wishlists that customers have created; and
 - The number of wishlists that are active (i.e., have at least one product in them).
 
 You can also see the details for customers who have wishlists. For each customer, you can see:
