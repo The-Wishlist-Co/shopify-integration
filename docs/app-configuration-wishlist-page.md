@@ -1,5 +1,3 @@
-# [[App Configuration — Wishlist Page]]
-
 The **wishlist page** configuration can be used to customise the appearance of the customer's wishlist page. There are five different aspects of this wishlist page that you can configure.
 
 - The [[#Add to Cart Button]] can be configured.
