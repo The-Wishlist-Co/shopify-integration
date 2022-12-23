@@ -7,7 +7,7 @@ Two basic reports are provided for you to monitor wishlists and the products the
 
 Both reports can be refined to show data for a particular date range, and both can be downloaded.
 
-![](assets/Pasted image 20221030230430.png)
+![Reporting date range and download](assets/reporting-date-range-and-download.png)
 
 By default, the date range is empty. This will cause the report to be based on _all_ customer activity. If you wish to restrict this to a particular timeframe, you can supply a start and end date. To view products added to wishlists for the last week, for example, you could add today's date as the “end date” and the date one week ago as the “start date”. The report would then reflect customer behaviour over the past week.
 
@@ -17,7 +17,7 @@ If you elect to download the data for a report, an email will be sent to you con
 
 The wishlist report allows you see a summary of what wishlists your customers have created.
 
-![](assets/Pasted image 20221030231500.png)
+![Reporting wishlist report](assets/reporting-wishlist-report.png)
 
 You can see:
 - The total number of wishlists that customers have created; and
@@ -34,13 +34,13 @@ You're also provided with the ability to search for a particular wishlist by eit
 
 You can make use of partial matches — the search function will find all wishlists whose name or owning customer's email address contains the search term anywhere. The following diagram illustrates:
 
-![](assets/Pasted image 20221030232438.png)
+![Reporting wishlist report partial match](assets/reporting-wishlist-report-partial-match.png)
 
 ## Product Report
 
 The product report allows you to see a summary of your available products and how customers have added them to their wishlists.
 
-![](assets/Pasted image 20221030231922.png)
+![Reporting product report](assets/reporting-product-report.png)
 
 You are provided with a list of products on your storefront. For each one, you can see:
 - The product's image, name, and SKU;
@@ -50,4 +50,4 @@ You are provided with a list of products on your storefront. For each one, you c
 
 Because you may have a significant number of products available, you can search for those products by either name or SKU. Partial names work too — searching for `Large`, for example, finds all products with `Large` anywhere in their name.
 
-![](assets/Pasted image 20221030232222.png)
+![Reporting product report partial match](assets/reporting-product-report-partial-match.png)
