@@ -7,4 +7,4 @@ include:
   - index.md
   - reporting.md
   - app-configurations.md
-theme: cayman
+theme: minima
