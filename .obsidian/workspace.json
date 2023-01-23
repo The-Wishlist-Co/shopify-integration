@@ -35,6 +35,16 @@
             }
           },
           {
+            "id": "5f82ec8ba62c04b0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
+          },
+          {
             "id": "cb5fcbe68c5ca004",
             "type": "leaf",
             "state": {
@@ -43,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,7 +190,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21bf9bbe39afcfcd",
+  "active": "5f82ec8ba62c04b0",
   "lastOpenFiles": [
     "docs/app-configuration-launch-point.md",
     "docs/reporting.md",

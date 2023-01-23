@@ -61,8 +61,6 @@ These can be selected (and can be different for) both desktop class devices and 
 
 ![Add to wishlist button position options](assets/add-to-wishlist-button-position-options.png)
 
-**[AL, 15Oct22]** — we need to add some content here describing how the custom JS works
-
 In this example, the Add to Wishlist button has been configured to be displayed after the add-to-cart button:
 
 ![Add to wishlist after add-to-cart example](assets/add-to-wishlist-after-add-to-cart-example.png)
@@ -70,6 +68,10 @@ In this example, the Add to Wishlist button has been configured to be displayed 
 Changing it to below the add-to-cart button has a different outcome:
 
 ![Add to wishlist below add-to-cart example](assets/add-add-to-wishlist-below-add-to-cart-example.png)
+
+#### Custom script — using Javascript to position the button
+
+**[AL, 15Oct22]** — we need to add some content here describing how the custom JS works
 
 ### Custom button styling with CSS
 
@@ -82,6 +84,8 @@ You can apply custom styling to the Add to Wishlist by providing a background co
 These are illustrated below:
 
 ![Add to wishlist button custom button styling](assets/add-to-wishlist-custom-button-styling.png)
+
+Note: The size break used to determine whether the desktop or mobile styling is used is 576px. Devices with a screen width greater than 576px will use the desktop styling, and those with a screen width equal to or less than 576px will use the mobile styling.
 
 ### Button text and font
 
