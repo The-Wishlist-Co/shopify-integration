@@ -100,10 +100,6 @@ This is a good starting point for the wishlist content page. It includes:
 - A way to search for products in the wishlist.
 - Pagination options.
 
-```ad-warning
-Want a store screenshot here, but it's offline.
-```
-
 If you want to customise this page, it's important to keep the core elements intact so that the wishlist page shows relevant details to the customer. You should limit your customisation to page layout and construction rather than wholesale changes to the information displayed.
 
 ### Styling
@@ -119,10 +115,6 @@ The customer is able to rename their wishlist if they want — however, you can 
 ![Wishlist page default wishlist name](assets/wishlist-page-default-wishlist-name.png)
 
 Making a change here will _not_ affect existing wishlists — it will only affect new customers who create their wishlist for the first time.
-
-```ad-info
-Validate this assumption!
-```
 
 ## Multiple Wishlist
 
