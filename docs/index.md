@@ -1,6 +1,6 @@
-The Wishlist — a product of The Wishlist Co — provides stores with a hosted wishlist solution that can be shared between their brick-and-mortar stores and online storefronts.
+The Wishlist — a product of The Wishlist Company — provides retailers with a hosted wishlist solution that can be shared between their brick-and-mortar stores and online storefronts.
 
-The initial implementation of The Wishlist provides integration with Shopify online storefronts, although additional solutions will be added later.
+The initial implementation of The Wishlist provides integration with Shopify online storefronts.  Additional solutions will be added later.
 
 This documentation focuses on the integration with Shopify.
 
