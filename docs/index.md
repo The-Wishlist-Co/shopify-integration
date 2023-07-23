@@ -46,9 +46,3 @@ The menu items in your wishlist configuration include:
 - **Logout** — use this to log out of your wishlist account
 
 Follow any of the links above to get additional information about each menu item in the wishlist's administration interface.
-
----
-
-## Not for general publication
-
-- [Questions and Issues](questions-and-issues.html) — Questions and issues for Matt and Shane

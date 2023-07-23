@@ -71,7 +71,7 @@ Changing it to below the add-to-cart button has a different outcome:
 
 #### Custom script — using Javascript to position the button
 
-Using Javascript to position the button is a more advanced option. It requires you to write a small amount of Javascript code that will be executed when the page is loaded. This code will need to find the element that contains the “Add to Cart” button, and then insert the “Add to Wishlist” button after it.
+Using Javascript to position the button is a more advanced option. It requires you to write a small amount of Javascript code that will be executed when the page is loaded. This code will need to find the element that the button will be inserted into, and then insert the “Add to Wishlist” button after it.
 
 The following code is an example:
 
@@ -79,6 +79,8 @@ The following code is an example:
 ucPositionButtonWLDetail = document.querySelector(".product__info-container > .product__title");
 ucPositionButtonWLDetail.insertAdjacentElement("afterend", window.UC_BUTTON_WL_DETAIL);
 ```
+
+This will locate the product title, and then insert the button after it.
 
 ### Custom button styling with CSS
 

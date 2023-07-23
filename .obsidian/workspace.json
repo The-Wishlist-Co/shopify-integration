@@ -29,18 +29,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/app-configuration-notifications.md",
+                "file": "docs/Links and references.md",
                 "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "5f82ec8ba62c04b0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.8"
               }
             }
           },
@@ -53,7 +43,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,6 +88,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "160b69decca1312d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -119,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/app-configuration-notifications.md",
+                "file": "docs/Links and references.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/app-configuration-notifications.md",
+                "file": "docs/Links and references.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/app-configuration-notifications.md"
+                "file": "docs/Links and references.md"
               }
             }
           },
@@ -190,13 +188,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f82ec8ba62c04b0",
+  "active": "21bf9bbe39afcfcd",
   "lastOpenFiles": [
+    "docs/assets/shopify-scope-store-content.png",
+    "docs/assets/shopify-scope-script-tags.png",
+    "docs/assets/shopify-scope-save.png",
+    "docs/assets/shopify-scope-products.png",
+    "docs/assets/shopify-scope-product-listings.png",
+    "docs/assets/shopify-scope-orders.png",
+    "docs/assets/shopify-scope-locations.png",
+    "docs/assets/shopify-scope-locales.png",
+    "docs/assets/shopify-scope-inventory.png",
+    "docs/assets/shopify-scope-customer.png",
+    "docs/assets/shopify-install-app.png",
+    "docs/installation.md",
+    "docs/installation",
+    "docs/questions-and-issues.md",
+    "docs/app-configuration-add-items-to-wishlist.md",
+    "docs/app-configuration-notifications.md",
     "docs/app-configuration-launch-point.md",
     "docs/reporting.md",
     "docs/app-configurations.md",
     "docs/app-configuration-wishlist-page.md",
-    "docs/app-configuration-add-items-to-wishlist.md",
     "Questions and Issues.md",
     "App Configuration — Notifications.md",
     "Reporting.md",

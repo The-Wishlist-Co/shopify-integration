@@ -126,17 +126,13 @@ The customer is able to rename their wishlist if they want — however, you can 
 
 Making a change here will _not_ affect existing wishlists — it will only affect new customers who create their wishlist for the first time.
 
-```ad-info
-Validate this assumption!
-```
-
 ## Multiple Wishlist
 
 You can control whether or not customers can have multiple wishlists. If this option is turned off, customers can only have a single wishlist. If it's turned on, the customer can have multiple wishlists.
 
 ![Wishlist page multiple wishlists](assets/wishlist-page-multiple-wishlists.png)
 
-Note that if this option is turned on, and you then turn it off, any customer who had multiple wishlists will lose access to their additional wishlists. Only their default wishlist will be available to them. Those additional wishlists aren't destroyed, however — if you turn the option back on, those additional wishlists will once again become available.
+Note that if this option is turned on, and you then turn it off, any customer who had multiple wishlists will lose their additional wishlists. Any wishlist other than the default will be deleted.
 
 ## Share Wishlist
 
