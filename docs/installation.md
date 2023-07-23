@@ -137,7 +137,7 @@ You need to provide The Wishlist with your Shopify store domain, in the format `
 
 NOTE: This API token is only accessible **once**. It is strongly suggested that you copy and paste this somewhere safe, or at least take a screenshot. The Wishlist needs this token to be able to integrate to your Shopify store.
 
-Click the “Reveal once” button. and you'll see the token. It will be in the format `shpat_«value»`, where `«value»` is a series of 32 characters that is unique to your store. For example: `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`.
+Click the “Reveal once” button. and you'll see the token. It will be in the format `shpat_«value»`, where `«value»` is a series of 32 characters that is unique to your store.
 
 ![Shopify API access token](assets/shopify-api-access-token.png)
 
