@@ -15,7 +15,7 @@ The first step required when installing The Wishlist is to log into Shopify usin
 
 At the Shopify login prompt, enter your credentials.
 
-![Shopify signin](assets/shopify-sign-in)
+![Shopify signin](assets/shopify-sign-in.png)
 
 ## Create application
 
@@ -57,7 +57,7 @@ When you first create your custom application, you will be show the application 
 - API Credentials
 - App settings
 
-By default, you'll be on the Overview tab. On that tab, there's a button labelled **Configure Admin API Scopes**. Click that button.
+By default, you'll be on the **Overview** tab. On that tab, there's a button labelled **Configure Admin API Scopes**. Click that button.
 
 ![Shopify admin API scopes](assets/shopify-admin-api-scopes.png)
 
