@@ -120,3 +120,35 @@ After you save your changes, Shopify will confirm the selected scopes, and offer
 When you click the install button, Shopify will confirm that you want to install the application. Click **Install**.
 
 ![Shopify install confirm](assets/shopify-install-app-confirm.png)
+
+## API credentials
+
+Once the application has been installed, you'll see a screen that offers some API credentials. These are settings that The Wishlist Co needs in order to configure The Wishlist to work with your Shopify store.
+
+![Shopify API credentials](assets/shopify-api-credentials.png)
+
+The Wishlist Co needs four things to complete your installation — the domain for your shopify store, and the three values available from this API credentials screen.
+
+### Store domain
+
+You need to provide The Wishlist with your Shopify store domain, in the format `«store».myshopify.com`, where `«store»` is your store's details. This value can be seen at the top of the setting screen.
+
+### Admin API access token
+
+NOTE: This API token is only accessible **once**. It is strongly suggested that you copy and paste this somewhere safe, or at least take a screenshot. The Wishlist needs this token to be able to integrate to your Shopify store.
+
+Click the “Reveal once” button. and you'll see the token. It will be in the format `shpat_«value»`, where `«value»` is a series of 32 characters that is unique to your store. For example: `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`.
+
+![Shopify API access token](assets/shopify-api-access-token.png)
+
+### API key
+
+The API key for your store is also required. This can be seen on the API credentials page. This is another series of 32 characters that is unique to your store. It should be visible.
+
+![Shopify API key](assets/shopify-api-key.png)
+
+### API secret key
+
+The API secret key for your store is also required. This will be hidden by default — you can click the eye icon to see it, or click the clipboard icon to copy it.
+
+![Shopify API secret key](assets/shopify-api-secret-key.png)
