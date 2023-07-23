@@ -45,12 +45,6 @@ You can also change the colour of the icon using the colour selector below the i
 
 If none of the builtin icons are appropriate, you can upload a custom icon using the “Upload your custom icon” option.
 
-### Before user has added to their cart
-
-```ad-warning
-Need info from Matt and Shane on this one. It's unclear how this works.
-```
-
 ### Message and font
 
 The final option available is to define the message shown on the button, along with the colour and font for the message.
@@ -105,10 +99,6 @@ This is a good starting point for the wishlist content page. It includes:
 - A list of the products that the customer has in their wishlist, along with buttons to edit and delete those products.
 - A way to search for products in the wishlist.
 - Pagination options.
-
-```ad-warning
-Want a store screenshot here, but it's offline.
-```
 
 If you want to customise this page, it's important to keep the core elements intact so that the wishlist page shows relevant details to the customer. You should limit your customisation to page layout and construction rather than wholesale changes to the information displayed.
 
