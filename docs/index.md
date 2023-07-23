@@ -8,8 +8,8 @@ This documentation focuses on the integration with Shopify.
 
 The steps below show how to access the wishlist configuration for your Shopify store.
 
-1.   Go to the Wishlist Admin console login page: https://sc.au-aws.thewishlist.io/auth/sign-in
-2.   Login using the email address and password provided  
+1. Go to the Wishlist Admin console login page at https://sc.au-aws.thewishlist.io/auth/sign-in.
+2. Login using the email address and password provided.
 
 At this point, you should see an administration page for the wishlist. It can be used to configure the wishlist experience that your Shopify customers will see.
 
@@ -17,6 +17,7 @@ The menu items in your wishlist configuration include:
 
 - [Dashboard] — provides an overall summary of your customer's wishlist use. (tbd)
 - [Subscription] — use this option to manage your subscription to the wishlist. (tbd)
+- [Installation](installation.html) — this describes how to install The Wishlist into your Shopify store.
 - [App Configurations](app-configurations.html) — this configures the way that the wishlist operates on your online storefront.
 	- [App Configuration — Launch Point](app-configuration-launch-point.html)
 	- [App Configuration — Add Items to Wishlist](app-configuration-add-items-to-wishlist.md)
