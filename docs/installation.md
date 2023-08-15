@@ -127,7 +127,7 @@ Once the application has been installed, you'll see a screen that offers some AP
 
 ![Shopify API credentials](assets/shopify-api-credentials.png)
 
-The Wishlist Co needs four things to complete your installation — the domain for your shopify store, and the three values available from this API credentials screen.
+The Wishlist Co needs four things to complete your installation — the domain for your Shopify store, and the three values available from this API credentials screen.
 
 ### Store domain
 
@@ -152,3 +152,13 @@ The API key for your store is also required. This can be seen on the API credent
 The API secret key for your store is also required. This will be hidden by default — you can click the eye icon to see it, or click the clipboard icon to copy it.
 
 ![Shopify API secret key](assets/shopify-api-secret-key.png)
+
+## Register an account to administer the app 
+
+The Wishlist can now push the app to your Shopify site, using the credentials you provided. The next step is for you to register an account to administer the app.
+
+Enter your details here: https://sc.au-aws.thewishlist.io/auth/sign-up (add the API you used for the initial setup on your Shopify site)
+
+You can then use https://sc.au-aws.thewishlist.io/auth/sign-in when you want to administer the app. 
+
+> Only **one user per site** can be registered.
