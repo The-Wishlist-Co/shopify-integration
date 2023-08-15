@@ -157,8 +157,8 @@ The API secret key for your store is also required. This will be hidden by defau
 
 The Wishlist can now push the app to your Shopify site, using the credentials you provided. The next step is for you to register an account to administer the app.
 
-Enter your details here: https://sc.au-aws.thewishlist.io/auth/sign-up (add the API you used for the initial setup on your Shopify site)
+Enter your details here: <https://sc.au-aws.thewishlist.io/auth/sign-up> (add the API you used for the initial setup on your Shopify site)
 
-You can then use https://sc.au-aws.thewishlist.io/auth/sign-in when you want to administer the app. 
+You can then use <https://sc.au-aws.thewishlist.io/auth/sign-in> when you want to administer the app. 
 
 > Only **one user per site** can be registered.
