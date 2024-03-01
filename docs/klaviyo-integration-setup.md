@@ -28,7 +28,7 @@ In Klaviyo click **Settings > Account > API keys**:
 
 Click **Create Private API Key**:
 
-![Private](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/d33789c5-3862-408b-8b47-1c92ab4c9445)
+![create-private-api-key](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/5b9d47f8-d462-4db0-a8f2-1640784854bc)
 
 Click **Full Access Key**:
 
