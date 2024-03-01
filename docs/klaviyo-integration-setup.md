@@ -1,22 +1,22 @@
-# About this guide #
+# About this guide 
 This guide illustrates the process of setting up and configuring the integration between The Wishlist platform and Klaviyo, including the establishment of basic Flows within Klaviyo that can be triggered by metrics from The Wishlist platform. 
 
 Additionally, it covers utilising dynamic data sent from The Wishlist platform to Klaviyo for each event.
 
-## How integrating The Wishlist with Klaviyo improves your marketing ##
+## How integrating The Wishlist with Klaviyo improves your marketing 
 
 Wishlist emails consistently achieve an outstanding open and conversion rate, outperforming other campaign types. 
 
 This heightened engagement can be attributed to the personalised content, ensuring customers receive tailored information about products they're interested in.
 
-## What you need to use Klaviyo with The Wishlist ##
+## What you need to use Klaviyo with The Wishlist 
 
 1. Set up Klaviyo as your default email platform within The Wishlist store owner console &ndash; specifying your API keys, and enabling and configuring the types of notifications you want to use. 
 2. Create Klaviyo flows that will receive data from The Wishlist whenever a configured event occurs, and send the notification to the customer. 
 
 You can use the full power of Klaviyo, including email and SMS, throttling and extended customer treatments.
 
-## How to create the private key in Klaviyo ##
+## How to create the private key in Klaviyo 
 
 This is the essential first step for integrating Klaviyo with The Wishlist platform.
 
@@ -44,7 +44,7 @@ Click **Integrations** and click **Activate** under Klaviyo. Now click **Configu
 
 Type the public API key into the first field. Paste the private API key you have created into the second field and click **Save**:
 
-![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/9cfc3275-67d1-41e7-9cc6-716dbf3cd900)
+![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/9cfc3275-67d1-41e7-9cc6-716dbf3cd900.gif)
 
 Review your notification settings.
 
@@ -76,7 +76,7 @@ To use Klaviyo with The Wishlist, ensure that:
 
 ![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/6eb8f3ef-5781-4e87-a966-e07b796143b7)
 
-## Setting up Klaviyo flows ##
+## Setting up Klaviyo flows 
 
 Now it's time to set up the Klaviyo flows.
 
@@ -100,7 +100,7 @@ Select the **TWC** metric you would like to use to trigger your flow:
 
 Click **Save**. Now it's time to create the email.
 
-### Create email ###
+### Create email 
 
 Under **Actions**, click and drag **Email** across to underneath the flow:
 
@@ -118,13 +118,13 @@ Click **Drag and Drop**:
 
 Now it's time to add the email content.
 
-## Add email content ##
+## Add email content 
 
 To include dynamic product information such as descriptions, prices, and product images in your Wishlist notification emails or SMS templates, you must add merge fields from the table below to each template:
 
-### Wishlist and customer merge fields ###
+### Wishlist and customer merge fields 
 
-#### Customer #### 
+#### Customer  
 
 | Merge field name | Merge field code |
 | ----- | --------------- |
@@ -132,7 +132,7 @@ To include dynamic product information such as descriptions, prices, and product
 |Surname|{{ event.Items.0.customer.lastName&#124;default:'' }}
 |Email| {{ event.Items.0.customer.email&#124;default:'' }} |
 
-#### Dynamic product attributes ####
+#### Dynamic product attributes 
 
 | Merge field name | Merge field code |
 | ----- | --------------- |
@@ -147,7 +147,7 @@ To include dynamic product information such as descriptions, prices, and product
 |Compare_at price (original price)|{{item.product.price.price&#124;default:''}}|
 |Stock level| {{item.product.variant.attribute_group.marketing_attributes.attributes.inventoryQuantity.attribute_value&#124;default:''}} |
 
-### Dynamic content ###
+### Dynamic content 
 
 The most effective method for integrating the dynamic product information sent by The Wishlist with each Wishlist-related notification in Klaviyo is by incorporating a Split content block into your email templates.
 
@@ -191,11 +191,11 @@ The first line needs to be inserted above your dynamic content and image block, 
 
 The numeric value towards the end of the first line of code is the one you adjust to meet your requirements.  
 
-#### Above ####
+#### Above 
 
 **{% for item in event.Items.0.customer.wishlist.wishlistItems|slice:":3" %}**
 
-#### Below ####
+#### Below 
 
 **{% endfor %}**
 
@@ -213,7 +213,7 @@ Once you've inserted your content and image block (split), follow the same steps
 
 ![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/4ec45a58-8b03-4e5c-8741-ac7f4a3a1506)
 
-## Preview email ##
+## Preview email 
 
 Now you're ready to preview your email
 
