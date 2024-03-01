@@ -24,15 +24,15 @@ You need to create a private API key in Klaviyo. Then add this new Private API k
 
 In Klaviyo click **Settings > Account > API keys**:
 
-![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/2ae88da5-3cc4-4133-8fd6-24a07b052500)
+![API](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/2ae88da5-3cc4-4133-8fd6-24a07b052500)
 
 Click **Create Private API Key**:
 
-![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/d33789c5-3862-408b-8b47-1c92ab4c9445)
+![Private](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/d33789c5-3862-408b-8b47-1c92ab4c9445)
 
 Click **Full Access Key**:
 
-![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/60553c32-ecbf-4d13-87bc-b542641efb5c)
+![Full access](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/60553c32-ecbf-4d13-87bc-b542641efb5c)
 
 Enter a **name** for the private API key and click the **Create** button.
 
@@ -44,10 +44,7 @@ Click **Integrations** and click **Activate** under Klaviyo. Now click **Configu
 
 Type the public API key into the first field. Paste the private API key you have created into the second field and click **Save**:
 
-![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/e7a68604-5273-4592-b044-cb9412fc9fce)
-
 ![save-private-API-key](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/e541fb20-5790-4636-ab79-fb80a1ab2950)
-
 
 Review your notification settings.
 
@@ -85,7 +82,7 @@ Now it's time to set up the Klaviyo flows.
 
 Click **Flows > Create flow**:
 
-![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/1e3431d7-4091-4d83-92e0-bdac15475409)
+![create-flow-button](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/1b984f66-8a5b-4d9f-b850-f029d4ac9888)
 
 Select **Create from scratch**:
 
@@ -107,7 +104,7 @@ Click **Save**. Now it's time to create the email.
 
 Under **Actions**, click and drag **Email** across to underneath the flow:
 
-![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/88bfa6bb-27c4-427b-9428-3ed99e37f965)
+![email-drag-to-flow](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/ec29005d-6be3-4845-9a10-baa692786f42)
 
 Click **Email** > **Configure content**:
 
