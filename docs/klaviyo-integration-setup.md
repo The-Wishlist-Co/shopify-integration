@@ -44,7 +44,7 @@ Click **Integrations** and click **Activate** under Klaviyo. Now click **Configu
 
 Type the public API key into the first field. Paste the private API key you have created into the second field and click **Save**:
 
-![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/9cfc3275-67d1-41e7-9cc6-716dbf3cd900.gif)
+![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/e7a68604-5273-4592-b044-cb9412fc9fce)
 
 Review your notification settings.
 
