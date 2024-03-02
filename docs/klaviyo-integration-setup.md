@@ -127,7 +127,7 @@ To include dynamic product information such as descriptions, prices, and product
 
 #### Customer  
 
-| Merge field name | Merge field code ||
+| Merge field name | Merge field code |
 | ----- | --------------- ||
 |First name| {% raw %} ``` {{ event.Items.0.customer.firstName|default:'' }} ``` {% endraw %} |
 |Surname| {% raw %} ``` {{ event.Items.0.customer.lastName|default:'' }} ``` {% endraw %} |
@@ -136,17 +136,17 @@ To include dynamic product information such as descriptions, prices, and product
 #### Dynamic product attributes 
 
 | Merge field name | Merge field code |
-| ----- | --------------- |
-|Product variant image| {% raw %} ``` {{item.product.variant.image_link&#124;default:''}} ``` {% endraw %}  |
-|Product variant URL| {% raw %} ``` {{item.product.variant.link&#124;default:''}} ``` {% endraw %} |
-|Product title| {% raw %} ``` {{item.product.title&#124;default:''}} ``` {% endraw %} |
-|Product Variant title| {% raw %} ``` {{item.product.variant.title&#124;default:''}} ``` {% endraw %} |
-|Product colour | {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.option1.attribute_value&#124;default:''}} ``` {% endraw %}  |
-|Product size| {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.option2.attribute_value&#124;default:''}} ``` {% endraw %} |
-|Brand vendor| {% raw %} ``` {{item.product.brand&#124;default:''}} ``` {% endraw %} |
-|Current price| {% raw %} ``` {{item.product.price.sale_price&#124;default:''}} ``` {% endraw %} |
-|Compare_at price (original price)| {% raw %} ``` {{item.product.price.price&#124;default:''}} ``` {% endraw %} |
-|Stock level| {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.inventoryQuantity.attribute_value&#124;default:''}} ``` {% endraw %} |
+| ----- | --------------- ||
+|Product variant image| {% raw %} ``` {{item.product.variant.image_link|default:''}} ``` {% endraw %}  |
+|Product variant URL| {% raw %} ``` {{item.product.variant.link|default:''}} ``` {% endraw %} |
+|Product title| {% raw %} ``` {{item.product.title|default:''}} ``` {% endraw %} |
+|Product Variant title| {% raw %} ``` {{item.product.variant.title|default:''}} ``` {% endraw %} |
+|Product colour | {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.option1.attribute_value|default:''}} ``` {% endraw %}  |
+|Product size| {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.option2.attribute_value|default:''}} ``` {% endraw %} |
+|Brand vendor| {% raw %} ``` {{item.product.brand|default:''}} ``` {% endraw %} |
+|Current price| {% raw %} ``` {{item.product.price.sale_price|default:''}} ``` {% endraw %} |
+|Compare_at price (original price)| {% raw %} ``` {{item.product.price.price|default:''}} ``` {% endraw %} |
+|Stock level| {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.inventoryQuantity.attribute_value|default:''}} ``` {% endraw %} |
 
 ### Dynamic content 
 
@@ -166,13 +166,15 @@ Select the left-hand side of the split and click **Image**, and then “click”
 
 ![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/31f9e018-93f3-4d16-a2bf-d811779e4b7d)
 
-"Click" **Dynamic Image** and enter this code **{{item.product.variant.image_link|default:''}}** into the field for the variant image URL:
+"Click" **Dynamic Image** and enter this code into the field for the variant image URL:
+{% raw %} ``` {{item.product.variant.image_link|default:''}} ``` {% endraw %} 
 
 Next, "click" **Save**
 
 ![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/5fcc9c44-0ec8-4655-98cf-5f8efaf34e18)
 
-Enter this code **{{item.product.variant.link|default:''}}** into the Link address field:
+Enter this code into the Link address field:
+{% raw %} ``` {{item.product.variant.link|default:''}} ``` {% endraw %} 
 
 ![image](https://github.com/The-Wishlist-Co/shopify-integration/assets/94915449/92fa2aa9-a42f-4d94-9aa8-b99291afb86c)
 
@@ -194,11 +196,11 @@ The numeric value towards the end of the first line of code is the one you adjus
 
 #### Above 
 
-**{% for item in event.Items.0.customer.wishlist.wishlistItems|slice:":3" %}**
+{% raw %} ``` {% for item in event.Items.0.customer.wishlist.wishlistItems|slice:":3" %} ``` {% endraw %} 
 
 #### Below 
 
-**{% endfor %}**
+{% raw %} ``` {% endfor %} ``` {% endraw %} 
 
 To insert these lines of code, follow these steps:
 
