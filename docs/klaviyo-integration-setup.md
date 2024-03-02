@@ -1,3 +1,4 @@
+
 # About this guide 
 This guide illustrates the process of setting up and configuring the integration between The Wishlist platform and Klaviyo, including the establishment of basic Flows within Klaviyo that can be triggered by metrics from The Wishlist platform. 
 
@@ -128,7 +129,7 @@ To include dynamic product information such as descriptions, prices, and product
 
 | Merge field name | Merge field code |
 | ----- | --------------- |
-|First name| {{ event.Items.0.customer.firstName&#124;default:'' }} |
+|First name| `{{ event.Items.0.customer.firstName&#124;default:'' }}` |
 |Surname|{{ event.Items.0.customer.lastName&#124;default:'' }}
 |Email| {{ event.Items.0.customer.email&#124;default:'' }} |
 
@@ -220,3 +221,4 @@ Now you're ready to preview your email
 Click **Preview and test**
 
 Set the complete flow live and that's it!
+
