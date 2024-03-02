@@ -127,24 +127,11 @@ To include dynamic product information such as descriptions, prices, and product
 
 #### Customer  
 
-| Merge field name | Merge field code |
-| ----- | --------------- |
-|First name| {% raw %} ``` {{ event.Items.0.customer.firstName&#124;default:'' }} ``` {% endraw %} |
-|Surname| {% raw %} ``` {{ event.Items.0.customer.lastName&#124;default:'' }} ``` {% endraw %} |
-|Email| {% raw %} ``` {{ event.Items.0.customer.email&#124;default:'' }} ``` {% endraw %}  |
-| First name | {% raw %} {% endraw %} ```liquid {{ event.Items.0.customer.firstName&#124;default:'' }} ``` | 
-| First name | {% raw %} ```liquid
-{{ event.Items.0.customer.firstName | default:'' }}
-``` {% endraw %} |
-
-| First name | 
-{% raw %} 
-```liquid
-{{ event.Items.0.customer.firstName | default:'' }}
-
-```markdown
-| First name | {% raw %} ```liquid {{ event.Items.0.customer.firstName | default:'' }} ``` {% endraw %} |
-
+| Merge field name | Merge field code ||
+| ----- | --------------- ||
+|First name| {% raw %} ``` {{ event.Items.0.customer.firstName|default:'' }} ``` {% endraw %} |
+|Surname| {% raw %} ``` {{ event.Items.0.customer.lastName|default:'' }} ``` {% endraw %} |
+|Email| {% raw %} ``` {{ event.Items.0.customer.email|default:'' }} ``` {% endraw %}  |
 
 #### Dynamic product attributes 
 
