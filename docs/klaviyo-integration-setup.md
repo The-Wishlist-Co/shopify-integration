@@ -138,12 +138,12 @@ To include dynamic product information such as descriptions, prices, and product
 </td>
 <td> {{ event.Items.0.customer.firstName&#124;default:'' }} 
 </td></tr>
-</tr>
+
     </table>
 
 | Merge field name | Merge field code |
 | ----- | --------------- |
-|First name| {{ event.Items.0.customer.firstName&#124;default:'' }} |
+|First name| {% raw %} {{ event.Items.0.customer.firstName&#124;default:'' }} {% raw %} |
 |Surname|{{ event.Items.0.customer.lastName&#124;default:'' }}
 |Email| {{ event.Items.0.customer.email&#124;default:'' }} |
 
