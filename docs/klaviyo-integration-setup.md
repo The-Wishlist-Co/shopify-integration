@@ -132,23 +132,34 @@ To include dynamic product information such as descriptions, prices, and product
 |First name| {% raw %} ``` {{ event.Items.0.customer.firstName&#124;default:'' }} ``` {% endraw %} |
 |Surname| {% raw %} ``` {{ event.Items.0.customer.lastName&#124;default:'' }} ``` {% endraw %} |
 |Email| {% raw %} ``` {{ event.Items.0.customer.email&#124;default:'' }} ``` {% endraw %}  |
+| First name | {% raw %} {% endraw %} ```liquid {{ event.Items.0.customer.firstName&#124;default:'' }} ``` | 
+| First name | {% raw %} ```liquid
+{{ event.Items.0.customer.firstName | default:'' }}
+``` {% endraw %} |
 
+| First name | 
+{% raw %} 
+```liquid
+{{ event.Items.0.customer.firstName | default:'' }}
+
+```markdown
+| First name | {% raw %} ```liquid {{ event.Items.0.customer.firstName | default:'' }} ``` {% endraw %} |
 
 
 #### Dynamic product attributes 
 
 | Merge field name | Merge field code |
 | ----- | --------------- |
-|Product variant image|{{item.product.variant.image_link&#124;default:''}}|
-|Product variant URL|{{item.product.variant.link&#124;default:''}}|
-|Product title|{{item.product.title&#124;default:''}}|
-|Product Variant title|{{item.product.variant.title&#124;default:''}}|
-|Product colour | {{item.product.variant.attribute_group.marketing_attributes.attributes.option1.attribute_value&#124;default:''}} |
-|Product size|{{item.product.variant.attribute_group.marketing_attributes.attributes.option2.attribute_value&#124;default:''}}|
-|Brand vendor|{{item.product.brand&#124;default:''}}|
-|Current price|{{item.product.price.sale_price&#124;default:''}}|
-|Compare_at price (original price)|{{item.product.price.price&#124;default:''}}|
-|Stock level| {{item.product.variant.attribute_group.marketing_attributes.attributes.inventoryQuantity.attribute_value&#124;default:''}} |
+|Product variant image| {% raw %} ``` {{item.product.variant.image_link&#124;default:''}} ``` {% endraw %}  |
+|Product variant URL| {% raw %} ``` {{item.product.variant.link&#124;default:''}} ``` {% endraw %} |
+|Product title| {% raw %} ``` {{item.product.title&#124;default:''}} ``` {% endraw %} |
+|Product Variant title| {% raw %} ``` {{item.product.variant.title&#124;default:''}} ``` {% endraw %} |
+|Product colour | {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.option1.attribute_value&#124;default:''}} ``` {% endraw %}  |
+|Product size| {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.option2.attribute_value&#124;default:''}} ``` {% endraw %} |
+|Brand vendor| {% raw %} ``` {{item.product.brand&#124;default:''}} ``` {% endraw %} |
+|Current price| {% raw %} ``` {{item.product.price.sale_price&#124;default:''}} ``` {% endraw %} |
+|Compare_at price (original price)| {% raw %} ``` {{item.product.price.price&#124;default:''}} ``` {% endraw %} |
+|Stock level| {% raw %} ``` {{item.product.variant.attribute_group.marketing_attributes.attributes.inventoryQuantity.attribute_value&#124;default:''}} ``` {% endraw %} |
 
 ### Dynamic content 
 
