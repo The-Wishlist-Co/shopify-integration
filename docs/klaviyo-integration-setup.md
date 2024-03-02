@@ -130,9 +130,9 @@ To include dynamic product information such as descriptions, prices, and product
 | Merge field name | Merge field code |
 | ----- | --------------- |
 |First name| {% raw %} ``` {{ event.Items.0.customer.firstName&#124;default:'' }} ``` {% endraw %} |
-|Surname|{{ event.Items.0.customer.lastName&#124;default:'' }}
-|Email| {{ event.Items.0.customer.email&#124;default:'' }} |
-| First name | {% raw %} {% endraw %} ```liquid {{ event.Items.0.customer.firstName&#124;default:'' }} ``` |
+|Surname| {% raw %} ``` {{ event.Items.0.customer.lastName&#124;default:'' }} ``` {% endraw %} |
+|Email| {% raw %} ``` {{ event.Items.0.customer.email&#124;default:'' }} ``` {% endraw %}  |
+
 
 
 #### Dynamic product attributes 
