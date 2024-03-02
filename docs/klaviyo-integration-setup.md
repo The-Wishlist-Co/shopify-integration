@@ -133,12 +133,9 @@ To include dynamic product information such as descriptions, prices, and product
 <td> Merge field code </td>
 </tr>
   <tr>
-    <td>
-  First name 
-</td>
-<td> {{ event.Items.0.customer.firstName&#124;default:'' }} 
-</td></tr>
-
+    <td> First name </td>
+<td> <code> {{ event.Items.0.customer.firstName&#124;default:'' }} </code> </td>
+  </tr>
     </table>
 
 | Merge field name | Merge field code |
